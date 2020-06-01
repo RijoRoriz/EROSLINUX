@@ -1,0 +1,9 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]/home/rjrroriz/p09embeddedros/EROSLINUX/bootgenfiles/zynqmp_fsbl.elf
+	[destination_cpu = pmu]/home/rjrroriz/p09embeddedros/EROSLINUX/bootgenfiles/pmufw.elf
+	[destination_cpu = a53-0, exception_level = el-3]/home/rjrroriz/p09embeddedros/EROSLINUX/bootgenfiles/bl31.elf
+	[destination_cpu = a53-0, exception_level = el-2]/home/rjrroriz/p09embeddedros/EROSLINUX/bootgenfiles/u-boot.elf
+}
