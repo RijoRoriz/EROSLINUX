@@ -1,0 +1,14 @@
+Package: genmsg
+Version: 0.5.12-r0
+Description: genmsg version 0.5.12-r0
+ Standalone Python library for generating ROS message and service data
+ structures for various languages.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: genmsg
+Homepage: http://www.ros.org/wiki/genmsg
+Depends: catkin, python-core, python-empy
+Source: genmsg_0.5.12.bb

@@ -1,0 +1,13 @@
+Package: python-image
+Version: 2.7.16-r1
+Description: Python graphical image handling
+ The Python Programming Language.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: PSFv2
+Architecture: aarch64
+OE: python
+Homepage: http://www.python.org
+Depends: python-core
+Source: python_2.7.16.bb

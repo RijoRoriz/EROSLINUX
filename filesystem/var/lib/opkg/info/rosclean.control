@@ -1,0 +1,13 @@
+Package: rosclean
+Version: 1.14.7-1-r0
+Description: rosclean version 1.14.7-1-r0
+ rosclean: cleanup filesystem resources (e.g. log files).
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosclean
+Homepage: http://wiki.ros.org/rosclean
+Depends: python-core, python-rospkg
+Source: rosclean_1.14.7-1.bb

@@ -1,0 +1,14 @@
+Package: liblog4cxx10
+Version: git-r0
+Description: log4cxx version git-r0
+ Apache logging framework for C++ library
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Apache-2.0
+Architecture: aarch64
+OE: log4cxx
+Homepage: http://logging.apache.org/log4cxx/
+Depends: libapr-1-0 (>= 1.6.3), libaprutil-1-0 (>= 1.6.1), libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libexpat1 (>= 2.2.6), libgcc1 (>= 8.2.0), libgdbm6 (>= 1.18), libstdc++6 (>= 8.2.0), libuuid1 (>= 2.32.1)
+Provides: log4cxx
+Source: log4cxx_git.bb

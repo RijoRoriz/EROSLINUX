@@ -1,0 +1,11 @@
+Package: shadow-securetty
+Version: 4.6-r3
+Description: Provider of the machine specific securetty file
+ Provider of the machine specific securetty file.
+Section: base utils
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: zcu104_zynqmp
+OE: shadow-securetty
+Source: shadow-securetty_4.6.bb

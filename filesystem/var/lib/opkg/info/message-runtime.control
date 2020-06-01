@@ -1,0 +1,14 @@
+Package: message-runtime
+Version: 0.4.12-r0
+Description: message-runtime version 0.4.12-r0
+ Package modeling the run-time dependencies for language bindings of
+ messages.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: message-runtime
+Homepage: http://ros.org/wiki/message_runtime
+Depends: cpp-common, genpy, python-core, roscpp-serialization, roscpp-traits, rostime
+Source: message-runtime_0.4.12.bb

@@ -1,0 +1,14 @@
+Package: librsvg-2-2
+Version: 2.40.20-r0
+Description: Library for rendering SVG files
+ Library for rendering SVG files.
+Section: x11/utils
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2+
+Architecture: aarch64
+OE: librsvg
+Homepage: http://ftp.gnome.org/pub/GNOME/sources/librsvg/
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.12), libcroco (>= 0.6.12), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libgdk-pixbuf-2.0-0 (>= 2.36.11), libglib-2.0-0 (>= 2.58.0), libpng16-16 (>= 1.6.36), libxml2 (>= 2.9.8), libz1 (>= 1.2.11), pango (>= 1.42.4)
+Provides: librsvg
+Source: librsvg_2.40.20.bb

@@ -1,0 +1,22 @@
+Package: libxft2
+Version: 1:2.3.2-r0
+Description: XFt: X FreeType libary
+ Xft was designed to provide good support for scalable fonts, and to do so
+ efficiently.  Unlike the core fonts system, it supports features such as
+ anti-aliasing and sub-pixel rasterisation. Perhaps more importantly, it
+ gives applications full control over the way glyphs are rendered, making
+ fine typesetting and WYSIWIG display possible. Finally, it allows
+ applications to use fonts that are not installed system-wide for
+ displaying documents with embedded fonts.  Xft is not compatible with the
+ core fonts system: usage of Xft requires fairly extensive changes to
+ toolkits (user-interface libraries).
+Section: x11/libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: libxft
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.28), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libx11-6 (>= 1.6.6), libxrender1 (>= 0.9.10)
+Provides: libxft
+Source: libxft_2.3.2.bb

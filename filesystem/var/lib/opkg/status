@@ -1,0 +1,4561 @@
+Package: shadow-securetty
+Version: 4.6-r3
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 1848
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: iptables-module-xt-cgroup
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10496
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libeigen
+Version: 3.3.5-r0
+Status: install ok installed
+Architecture: aarch64
+Installed-Time: 1589908453
+Auto-Installed: yes
+
+Package: velodyne-driver
+Version: 1.5.2-r0
+Depends: bash, class-loader (>= 0.4.1), diagnostic-updater, dynamic-reconfigure (>= 1.6.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libpcap1 (>= 1.8.1), libstdc++6 (>= 8.2.0), nodelet (>= 1.9.16), pluginlib, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), tf (>= 1.12.0), velodyne-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 637107
+Installed-Time: 1589908490
+Auto-Installed: yes
+
+Package: iptables-module-ebt-mark-m
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6192
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libbz2-1
+Version: 1.0.6-r5
+Depends: libc6 (>= 2.28)
+Provides: libbz2
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 70792
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: libboost-signals1.68.0
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-signals
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 96808
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: libcrypto1.1
+Version: 1.1.1b-r0
+Depends: libc6 (>= 2.28)
+Recommends: openssl-conf
+Provides: libcrypto
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2560744
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: python-tkinter
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1074099
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: rosbash
+Version: 1.14.7-1-r0
+Depends: bash-real, catkin, python-core, rospack
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 96659
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libharfbuzz0
+Version: 1.8.8-r0
+Depends: libc6 (>= 2.28), libfreetype6 (>= 2.9.1), libgcc1 (>= 8.2.0), libglib-2.0-0 (>= 2.58.0), libstdc++6 (>= 8.2.0)
+Provides: harfbuzz
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 767064
+Installed-Time: 1589908476
+Auto-Installed: yes
+
+Package: python-docutils
+Version: 0.14rc2-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 3412684
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: busybox-syslog
+Version: 1.29.3-r0
+Depends: busybox, update-alternatives-opkg
+Conflicts: rsyslog, sysklogd, syslog-ng
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1511
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: iptables-module-xt-trace
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6104
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: rostime
+Version: 0.6.13-1-r0
+Depends: boost, cpp-common, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 110042
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: python-shell
+Version: 2.7.16-r1
+Depends: python-compression, python-core, python-io, python-unixadmin, python-zlib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 124852
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: libxdmcp6
+Version: 1:1.1.2-r0
+Depends: libc6 (>= 2.28)
+Provides: libxdmcp
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 22488
+Installed-Time: 1589908457
+Auto-Installed: yes
+
+Package: libcroco
+Version: 0.6.12-r0
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), libxml2 (>= 2.9.8)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 266920
+Installed-Time: 1589908476
+Auto-Installed: yes
+
+Package: libc6
+Version: 2.28-r0
+Provides: eglibc, glibc, rtld(GNU_HASH)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 3274817
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: opkg
+Version: 1:0.3.6-r0
+Depends: libarchive, libc6 (>= 2.28), libopkg1 (>= 0.3.6), opkg-arch-config, update-alternatives-opkg
+Provides: opkg-collateral
+Replaces: opkg-collateral, opkg-nogpg
+Conflicts: opkg-collateral
+Status: install ok installed
+Architecture: aarch64
+Conffiles:
+ /etc/opkg/opkg.conf 882b918d3b6f80af40390aaca25d3f2e
+Installed-Size: 23615
+Installed-Time: 1589908474
+
+Package: iptables-module-xt-cpu
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-netclient
+Version: 2.7.16-r1
+Depends: python-codecs, python-contextlib, python-core, python-crypt, python-ctypes, python-datetime, python-email, python-fcntl, python-io, python-lang, python-math, python-mime, python-pickle, python-subprocess, python-textutils, python-threading
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 854172
+Installed-Time: 1589908483
+Auto-Installed: yes
+
+Package: boost-log
+Version: 1.68.0-r0
+Depends: libboost-filesystem1.68.0 (>= 1.68.0), libboost-regex1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1518464
+Installed-Time: 1589908471
+Auto-Installed: yes
+
+Package: python-catkin-pkg
+Version: 0.4.15-r0
+Depends: python-core, python-dateutil, python-docutils, python-pyparsing, python-unixadmin
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 397253
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: python-pip
+Version: 18.0-r0
+Depends: python-distribute, python-misc, python-modules
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 7740951
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: util-linux-mkfs
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908457
+Auto-Installed: yes
+
+Package: python-datetime
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-codecs, python-core, python-lang
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 187415
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libcom-err2
+Version: 1.44.3-r0
+Depends: libc6 (>= 2.28)
+Provides: libcomerr
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14472
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python-codecs
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core, python-io, python-lang
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1810466
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: python-netifaces
+Version: 0.10.5-r0
+Depends: libc6 (>= 2.28), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 29546
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: iptables-module-ipt-ecn
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-ipt-snat
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10376
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libboost-locale1.68.0
+Version: 1.68.0-r0
+Depends: libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libicui18n62 (>= 62.1), libicuuc62 (>= 62.1), libstdc++6 (>= 8.2.0)
+Provides: boost-locale
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 912704
+Installed-Time: 1589908471
+Auto-Installed: yes
+
+Package: std-srvs
+Version: 1.11.2-r0
+Depends: message-runtime, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 68430
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: util-linux-switch-root
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14560
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.29.3-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Recommends: busybox-udhcpc
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 632978
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: libunistring2
+Version: 0.9.10-r0
+Depends: libc6 (>= 2.28)
+Provides: libunistring
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1548272
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python-syslog
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10400
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: util-linux-umount
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libmount1 (>= 2.32.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 27352
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: std-msgs
+Version: 0.5.12-r0
+Depends: message-runtime, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 513802
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: update-alternatives-opkg
+Version: 0.3.6-r0
+Provides: update-alternatives, update-alternatives-cworth
+Replaces: update-alternatives-cworth
+Conflicts: update-alternatives-cworth
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 4633
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: liblog4cxx10
+Version: git-r0
+Depends: libapr-1-0 (>= 1.6.3), libaprutil-1-0 (>= 1.6.1), libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libexpat1 (>= 2.2.6), libgcc1 (>= 8.2.0), libgdbm6 (>= 1.18), libstdc++6 (>= 8.2.0), libuuid1 (>= 2.32.1)
+Provides: log4cxx
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1757400
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: iptables-module-xt-tos
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 21000
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-curses
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libncursesw5 (>= 6.1+20180630), libpanelw5 (>= 6.1+20180630), libpython2.7-1.0 (>= 2.7.16), libtinfo5 (>= 6.1+20180630), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 146134
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: python-xmlrpc
+Version: 2.7.16-r1
+Depends: python-codecs, python-compression, python-contextlib, python-core, python-crypt, python-datetime, python-fcntl, python-io, python-lang, python-math, python-mime, python-netclient, python-netserver, python-pkgutil, python-pydoc, python-textutils, python-threading, python-xml, python-zlib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 68902
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: python-json
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 128524
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: velodyne-laserscan
+Version: 1.5.2-r0
+Depends: class-loader (>= 0.4.1), dynamic-reconfigure (>= 1.6.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), nodelet (>= 1.9.16), python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), sensor-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 261743
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: busybox-udhcpc
+Version: 1.29.3-r0
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2683
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: libnl-3-200
+Version: 1:3.4.0-r0
+Depends: libc6 (>= 2.28)
+Provides: libnl
+Replaces: libnl2
+Conflicts: libnl2
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 141590
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python-lang
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 354104
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: libpoconet60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-net
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1189336
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: message-runtime
+Version: 0.4.12-r0
+Depends: cpp-common, genpy, python-core, roscpp-serialization, roscpp-traits, rostime
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 853
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: ros-environment
+Version: 1.2.2-1-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 5287
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: iptables-module-xt-devgroup
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10352
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-mailbox
+Version: 2.7.16-r1
+Depends: python-codecs, python-contextlib, python-core, python-crypt, python-datetime, python-email, python-fcntl, python-io, python-lang, python-math, python-mime, python-netclient, python-textutils
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 157519
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: gennodejs
+Version: 2.0.1-r0
+Depends: genmsg, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 76385
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: bash
+Version: 4.4.18-r0
+Depends: base-files, libc6 (>= 2.28), libtinfo5 (>= 6.1+20180630), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1031632
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: pcl
+Version: 1.8.1-r0
+Depends: libboost-filesystem1.68.0 (>= 1.68.0), libboost-iostreams1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libflann (>= 1.9.1), libgcc1 (>= 8.2.0), libgomp1 (>= 8.2.0), libstdc++6 (>= 8.2.0), qhull (>= 2012.1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 93373048
+Installed-Time: 1589908474
+Auto-Installed: yes
+
+Package: libffi6
+Version: 3.2.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libffi
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 30880
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: kernel-module-libcrc32c-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Depends: kernel-4.14.0-xilinx-v2018.3
+Provides: kernel-module-libcrc32c
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 5536
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: openssl
+Version: 1.1.1b-r0
+Depends: openssl-conf
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 11733
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: pcl-conversions
+Version: 1.7.0-2-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1266
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: packagegroup-core-ssh-dropbear
+Version: 1.0-r1
+Depends: dropbear
+Status: install ok installed
+Architecture: all
+Installed-Time: 1589908462
+
+Package: qhull
+Version: 2012.1-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2348696
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: libsolv0
+Version: 0.6.35-r0
+Depends: libc6 (>= 2.28)
+Provides: libsolv
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 522128
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: dbus-1
+Version: 1.12.10-r0
+Depends: base-files, base-passwd, libc6 (>= 2.28), libdbus-1-3 (>= 1.12.10), libexpat1 (>= 2.2.6), libsystemd0 (>= 239), libx11-6 (>= 1.6.6), shadow
+Provides: dbus, dbus-x11
+Replaces: dbus-x11
+Status: install ok installed
+Architecture: aarch64
+Conffiles:
+ /etc/dbus-1/system.conf ba0df1208e214a87771671053c29dbe7
+ /etc/dbus-1/session.conf cc8ea0872ace9945b8fcfc232c316be2
+Installed-Size: 400537
+Installed-Time: 1589908476
+Auto-Installed: yes
+
+Package: iptables-module-xt-limit
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10320
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: nettle
+Version: 3.4-r0
+Depends: libc6 (>= 2.28), libgmp10 (>= 6.1.2)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 500776
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: python-db
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libgdbm-compat4 (>= 1.18), libpython2.7-1.0 (>= 2.7.16), python-bsddb, python-core, python-gdbm
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 43174
+Installed-Time: 1589908474
+Auto-Installed: yes
+
+Package: python-difflib
+Version: 2.7.16-r1
+Depends: python-core, python-lang
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 144115
+Installed-Time: 1589908474
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-icmp6
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10344
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-paramiko
+Version: 1.16.0-r0
+Depends: python-core, python-ecdsa, python-pycrypto
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1150142
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: rosservice
+Version: 1.14.3-r0
+Depends: genpy, python-core, rosgraph, roslib, rosmsg, rospy
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 61266
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: iptables-module-xt-u32
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10320
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-synproxy
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: kernel-image-image-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Provides: kernel-image-image
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 16595456
+Installed-Time: 1589908455
+Auto-Installed: yes
+
+Package: python-pprint
+Version: 2.7.16-r1
+Depends: python-core, python-io
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 21933
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: libboost-iostreams1.68.0
+Version: 1.68.0-r0
+Depends: libbz2-1 (>= 1.0.6), libc6 (>= 2.28), libgcc1 (>= 8.2.0), liblzma5 (>= 5.2.4), libstdc++6 (>= 8.2.0), libz1 (>= 1.2.11)
+Provides: boost-iostreams
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 117704
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: libgcrypt
+Version: 1.8.4-r0
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25), libgpg-error (>= 1.32)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 780080
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: mk
+Version: 1.14.7-1-r0
+Depends: python-core, rosbuild, rospack
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 13941
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libopkg1
+Version: 1:0.3.6-r0
+Depends: libarchive (>= 3.3.3), libc6 (>= 2.28), libsolv0 (>= 0.6.35)
+Provides: libopkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 183368
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: libxft2
+Version: 1:2.3.2-r0
+Depends: libc6 (>= 2.28), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libx11-6 (>= 1.6.6), libxrender1 (>= 0.9.10)
+Provides: libxft
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 85192
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: iptables-module-xt-mac
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libuuid1
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28)
+Provides: util-linux-libuuid
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 27000
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: rosconsole-bridge
+Version: 0.5.3-r0
+Depends: cpp-common, libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rosconsole (>= 1.13.11-1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 15560
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: rosgraph
+Version: 1.14.3-r0
+Depends: python-core, python-netifaces, python-pyyaml, python-rospkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 191687
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-ipv6header
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10352
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libboost-atomic1.68.0
+Version: 1.68.0-r0
+Provides: boost-atomic
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 5672
+Installed-Time: 1589908453
+Auto-Installed: yes
+
+Package: rosboost-cfg
+Version: 1.14.7-1-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 31645
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: libxcb-shm0
+Version: 1.13-r0
+Depends: libc6 (>= 2.28), libxau6 (>= 1.0.8), libxcb1 (>= 1.13), libxdmcp6 (>= 1.1.2)
+Provides: libxcb-shm
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10112
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: base-files
+Version: 3.0.14-r89
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Conffiles:
+ /etc/fstab 18e86774a3cd0230bf0192fb859bfe92
+ /etc/hostname d5a5f66fa1f7b6da32040be7d92c96ce
+ /etc/shells a0b758b0ae1eaefda1dfb8b031f7a903
+ /etc/motd d41d8cd98f00b204e9800998ecf8427e
+ /etc/nsswitch.conf 109e33e2c91d1853b5bc56078a96aa18
+ /etc/profile bcbc86e4f0974450c855fba1f716b712
+Installed-Size: 3050
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: iptables-module-xt-pkttype
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10312
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-ipt-realm
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10352
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: util-linux-ionice
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 22808
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: iptables-module-xt-connbytes
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10312
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-nflog
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: rosbuild
+Version: 1.14.7-1-r0
+Depends: catkin, message-generation, message-runtime, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 102838
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: util-linux-mountpoint
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libmount1 (>= 2.32.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14512
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: velodyne
+Version: 1.5.2-r0
+Depends: python-core, velodyne-driver, velodyne-laserscan, velodyne-msgs, velodyne-pointcloud
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 806
+Installed-Time: 1589908490
+
+Package: libpoconetssl60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libgcc1 (>= 8.2.0), libpococrypto60 (>= 1.9.0), libpocofoundation60 (>= 1.9.0), libpoconet60 (>= 1.9.0), libpocoutil60 (>= 1.9.0), libssl1.1 (>= 1.1.1b), libstdc++6 (>= 8.2.0)
+Provides: poco-netssl
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 280328
+Installed-Time: 1589908477
+Auto-Installed: yes
+
+Package: nav-msgs
+Version: 1.12.7-r0
+Depends: actionlib-msgs, geometry-msgs, message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 492797
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: util-linux-sfdisk
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libfdisk1 (>= 2.32.1), libsmartcols1 (>= 2.32.1), libtinfo5 (>= 6.1+20180630)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 106408
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: roscpp-core
+Version: 0.6.13-1-r0
+Depends: cpp-common, python-core, roscpp-serialization, roscpp-traits, rostime
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 606
+Installed-Time: 1589908483
+Auto-Installed: yes
+
+Package: trajectory-msgs
+Version: 1.12.7-r0
+Depends: geometry-msgs, message-runtime, python-core, rosbag-migration-rule, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 131593
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: shadow-base
+Version: 4.6-r0
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 173270
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: iptables-module-xt-length
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Depends: kernel-4.14.0-xilinx-v2018.3, kernel-module-libcrc32c-4.14.0-xilinx-v2018.3, kernel-module-nf-conntrack-4.14.0-xilinx-v2018.3
+Provides: kernel-module-nf-nat
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 34936
+Installed-Time: 1589908474
+Auto-Installed: yes
+
+Package: python-gnupg
+Version: 0.4.1-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 103432
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: libstdc++6
+Version: 8.2.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0)
+Provides: libstdc++
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1541248
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-eui64
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6088
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: velodyne-pointcloud
+Version: 1.5.2-r0
+Depends: angles, class-loader (>= 0.4.1), dynamic-reconfigure (>= 1.6.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), libyaml-cpp0.6 (>= 0.6.2), message-filters (>= 1.14.3), nodelet (>= 1.9.16), pcl (>= 1.8.1), pcl-conversions, pcl-ros, pluginlib, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), roslib (>= 1.14.7-1), rostime (>= 0.6.13-1), sensor-msgs, tf (>= 1.12.0), velodyne-driver, velodyne-laserscan, velodyne-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1838604
+Installed-Time: 1589908490
+Auto-Installed: yes
+
+Package: iptables-module-xt-rpfilter
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: librsvg-2-2
+Version: 2.40.20-r0
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.12), libcroco (>= 0.6.12), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libgdk-pixbuf-2.0-0 (>= 2.36.11), libglib-2.0-0 (>= 2.58.0), libpng16-16 (>= 1.6.36), libxml2 (>= 2.9.8), libz1 (>= 1.2.11), pango (>= 1.42.4)
+Provides: librsvg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 210052
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: catkin
+Version: 0.7.19-1-r0
+Depends: python-catkin-pkg, python-core, python-empy
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 215812
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: wpa-supplicant-cli
+Version: 2.6-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 92768
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: libxrender1
+Version: 1:0.9.10-r0
+Depends: libc6 (>= 2.28), libx11-6 (>= 1.6.6)
+Provides: libxrender
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 39192
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: libsmartcols1
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28)
+Provides: util-linux-libsmartcols
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 204688
+Installed-Time: 1589908457
+Auto-Installed: yes
+
+Package: util-linux-lsblk
+Version: 2.32.1-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libmount1 (>= 2.32.1), libsmartcols1 (>= 2.32.1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 72888
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: genmsg
+Version: 0.5.12-r0
+Depends: catkin, python-core, python-empy
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 125620
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: tf2-eigen
+Version: 0.6.5-r0
+Depends: geometry-msgs, python-core, tf2
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 507
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: iptables-module-xt-led
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libdbus-1-3
+Version: 1.12.10-r0
+Depends: libc6 (>= 2.28), libsystemd0 (>= 239)
+Recommends: dbus-1
+Provides: dbus-lib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 333528
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: python-six
+Version: 1.11.0-r0
+Depends: python-core, python-io
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 83738
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: iptables-module-xt-statistic
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10312
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: bzip2
+Version: 1.0.6-r5
+Depends: libbz2-1 (>= 1.0.6), libc6 (>= 2.28), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 46416
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: ros-comm
+Version: 1.14.3-r0
+Depends: message-filters, python-core, ros, rosbag, rosconsole, roscpp, rosgraph, rosgraph-msgs, roslaunch, rosmaster, rosmsg, rosnode, rosout, rosparam, rospy, rosservice, rostest, rostopic, roswtf, std-srvs, topic-tools, xmlrpcpp
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2227
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: libboost-thread1.68.0
+Version: 1.68.0-r0
+Depends: libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-thread
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 158712
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: rostopic
+Version: 1.14.3-r0
+Depends: genpy, python-core, rosbag, rospy
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 164715
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: mobile-broadband-provider-info
+Version: 1:20170310-r0
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 338407
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: python-distutils
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1868678
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: iptables-module-xt-esp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-hbh
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10336
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: openssl-conf
+Version: 1.1.1b-r0
+Provides: openssl10-conf
+Replaces: openssl10-conf
+Conflicts: openssl10-conf
+Status: install ok installed
+Architecture: aarch64
+Conffiles:
+ /etc/ssl/openssl.cnf fb92a2dab53f11f4f5f22adc5257b553
+Installed-Size: 10909
+Installed-Time: 1589908455
+Auto-Installed: yes
+
+Package: python-core
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), libreadline7 (>= 7.0), libz1 (>= 1.2.11), update-alternatives-opkg
+Provides: python
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 3161290
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: libarchive
+Version: 3.3.3-r0
+Depends: libacl1 (>= 2.2.52), libbz2-1 (>= 1.0.6), libc6 (>= 2.28), liblzma5 (>= 5.2.4), liblzo2-2 (>= 2.10), libxml2 (>= 2.9.8), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 807400
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: angles
+Version: 1.9.11-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 16385
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: kbd-consolefonts
+Version: 2.0.4-r0
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 474440
+Installed-Time: 1589908453
+Auto-Installed: yes
+
+Package: libmount1
+Version: 2.32.1-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libuuid1 (>= 2.32.1)
+Provides: util-linux-libmount
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 353904
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: util-linux-mount
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libmount1 (>= 2.32.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 39880
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: genpy
+Version: 0.6.9-1-r0
+Depends: genmsg, python-core, python-pyyaml
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 205682
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: python-numpy
+Version: 1.14.5-r0
+Depends: libc6 (>= 2.28), python-subprocess
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 17227378
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-snpt
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6208
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-empy
+Version: 3.3.2-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 245709
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: python-numbers
+Version: 2.7.16-r1
+Depends: python-codecs, python-core, python-lang, python-math, python-threading
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 459808
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libtinfo5
+Version: 6.1+20180630-r0
+Depends: libc6 (>= 2.28)
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Provides: ncurses-libtinfo
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 171496
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: python-pydoc
+Version: 2.7.16-r1
+Depends: python-codecs, python-core, python-lang, python-pkgutil
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1284618
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-cluster
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-ipt-netmap
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libpocomongodb60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libpoconet60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-mongodb
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 200696
+Installed-Time: 1589908470
+Auto-Installed: yes
+
+Package: libapr-1-0
+Version: 1.6.3-r0
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libuuid1 (>= 2.32.1)
+Provides: apr
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 213928
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: libpocodatasqlite60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocodata60 (>= 1.9.0), libpocofoundation60 (>= 1.9.0), libsqlite3-0 (>= 3.23.1), libstdc++6 (>= 8.2.0)
+Provides: poco-datasqlite
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 390768
+Installed-Time: 1589908470
+Auto-Installed: yes
+
+Package: util-linux-swaponoff
+Version: 2.32.1-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libmount1 (>= 2.32.1), libsmartcols1 (>= 2.32.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 62544
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: systemd-vconsole-setup
+Version: 1:239-r0
+Depends: libc6 (>= 2.28), systemd (>= 239)
+Recommends: kbd, kbd-consolefonts, kbd-keymaps
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 18866
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: rosmaster
+Version: 1.14.3-r0
+Depends: python-core, python-defusedxml, rosgraph
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 190553
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: iptables-module-xt-audit
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6208
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: rosparam
+Version: 1.14.3-r0
+Depends: python-core, python-pyyaml, rosgraph
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 46497
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libflann
+Version: 1.9.1-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libgomp1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 4011136
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: python-io
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libpython2.7-1.0 (>= 2.7.16), libssl1.1 (>= 1.1.1b), python-contextlib, python-core, python-crypt, python-fcntl, python-lang, python-math, python-netclient, python-textutils
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 754869
+Installed-Time: 1589908478
+Auto-Installed: yes
+
+Package: roslib
+Version: 1.14.7-1-r0
+Depends: catkin, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, python-rospkg, ros-environment, rospack (>= 2.5.4-1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 400180
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libgpg-error
+Version: 1.32-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 152624
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python-netserver
+Version: 2.7.16-r1
+Depends: python-compression, python-contextlib, python-core, python-crypt, python-fcntl, python-io, python-lang, python-math, python-mime, python-netclient, python-shell, python-textutils, python-threading, python-unixadmin, python-zlib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 200710
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: rosunit
+Version: 1.14.7-1-r0
+Depends: python-core, python-rospkg, roslib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 188740
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libconsole-bridge0.4
+Version: 0.4.2-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: console-bridge
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14464
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: iptables-module-xt-socket
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10864
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-resource
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14976
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: systemd-extra-utils
+Version: 1:239-r0
+Depends: base-files, base-passwd, libc6 (>= 2.28), shadow, systemd (>= 239)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 337625
+Installed-Time: 1589908483
+Auto-Installed: yes
+
+Package: python-pycrypto
+Version: 2.6.1-r0
+Depends: libc6 (>= 2.28), libgmp10 (>= 6.1.2), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2056542
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: systemd-container
+Version: 1:239-r0
+Depends: libacl1 (>= 2.2.52), libc6 (>= 2.28), systemd (>= 239)
+Recommends: systemd-journal-gatewayd, systemd-journal-remote, systemd-journal-upload
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 421689
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: topic-tools
+Version: 1.14.3-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-runtime, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), std-msgs, xmlrpcpp (>= 1.14.3)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 769229
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: iptables-module-xt-notrack
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 15640
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: rosbag-storage
+Version: 1.14.3-r0
+Depends: boost, bzip2, class-loader (>= 0.4.1), cpp-common (>= 0.6.13-1), gpgme (>= 1.11.1), libboost-filesystem1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libbz2-1 (>= 1.0.6), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libcrypto1.1 (>= 1.1.1b), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), libtinyxml2-6 (>= 6.2.0), openssl, pluginlib, python-core, rosconsole (>= 1.13.11-1), roscpp-serialization, roscpp-traits, roslib (>= 1.14.7-1), roslz4 (>= 1.14.3), rostime (>= 0.6.13-1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 467018
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: libpocoredis60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libpoconet60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-redis
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 162960
+Installed-Time: 1589908470
+Auto-Installed: yes
+
+Package: python-textutils
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-codecs, python-core, python-io, python-lang
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 207977
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: dynamic-reconfigure
+Version: 1.6.0-r0
+Depends: boost, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-runtime, python-core, roscpp, roslib, rospy, rosservice, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 540591
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-ah
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-unittest
+Version: 2.7.16-r1
+Depends: python-core, python-difflib, python-io, python-lang, python-pprint, python-shell
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 194138
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: boost-serialization
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 428560
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-redirect
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: xmlrpcpp
+Version: 1.14.3-r0
+Depends: cpp-common, libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rostime (>= 0.6.13-1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 123344
+Installed-Time: 1589908482
+Auto-Installed: yes
+
+Package: util-linux-agetty
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 52200
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: iptables-module-xt-quota
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libpng16-16
+Version: 1.6.36-r0
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11)
+Provides: libpng
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 199608
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: stereo-msgs
+Version: 1.12.7-r0
+Depends: message-runtime, python-core, sensor-msgs, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 46937
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.9.8-r0
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1374160
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: message-generation
+Version: 0.4.0-r0
+Depends: gencpp, genmsg, gennodejs, genpy, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 783
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: python-defusedxml
+Version: 0.5.0-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 103561
+Installed-Time: 1589908468
+Auto-Installed: yes
+
+Package: ofono
+Version: 1.24-r0
+Depends: dbus-1, libc6 (>= 2.28), libdbus-1-3 (>= 1.12.10), libglib-2.0-0 (>= 2.58.0), libudev1 (>= 239)
+Recommends: kernel-module-tun, mobile-broadband-provider-info
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1680629
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: libtinyxml2-6
+Version: 6.2.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: libtinyxml2
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 80960
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: python-crypt
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libcrypto1.1 (>= 1.1.1b), libpython2.7-1.0 (>= 2.7.16), python-core
+Recommends: openssl
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 43391
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: roswtf
+Version: 1.14.3-r0
+Depends: python-core, python-paramiko, python-rospkg, rosbuild, rosgraph, roslaunch, roslib, rosnode, rosservice
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 158358
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: libpocojson60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-json
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 303280
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: libpocopdf60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libpocoutil60 (>= 1.9.0), libpocoxml60 (>= 1.9.0), libstdc++6 (>= 8.2.0), libz1 (>= 1.2.11)
+Provides: poco-pdf
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1168744
+Installed-Time: 1589908477
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-dnat
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10360
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libblkid1
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libuuid1 (>= 2.32.1)
+Provides: util-linux-libblkid
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 320240
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: os-release
+Version: 1.0-r0
+Status: install ok installed
+Architecture: all
+Installed-Size: 292
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: libboost-regex1.68.0
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-regex
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 897336
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: python-debugger
+Version: 2.7.16-r1
+Depends: python-core, python-io, python-lang, python-pprint, python-shell
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 130233
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: iptables-module-xt-ipcomp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-email
+Version: 2.7.16-r1
+Depends: python-contextlib, python-core, python-crypt, python-fcntl, python-io, python-lang, python-math, python-netclient, python-pickle, python-subprocess, python-textutils, python-threading
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 405947
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: shape-msgs
+Version: 1.12.7-r0
+Depends: geometry-msgs, message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 65180
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libsqlite3-0
+Version: 3:3.23.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libsqlite3
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 857992
+Installed-Time: 1589908457
+Auto-Installed: yes
+
+Package: python-math
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core, python-crypt
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 185476
+Installed-Time: 1589908474
+Auto-Installed: yes
+
+Package: tf
+Version: 1.12.0-r0
+Depends: geometry-msgs, graphviz, libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-filters, message-runtime, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), roswtf, sensor-msgs, std-msgs, tf2 (>= 0.6.5), tf2-ros (>= 0.6.5), xmlrpcpp (>= 1.14.3)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 778031
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: volatile-binds
+Version: 1.0-r0
+Status: install ok installed
+Architecture: all
+Installed-Size: 3125
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: libxcb1
+Version: 1.13-r0
+Depends: libc6 (>= 2.28), libxau6 (>= 1.0.8), libxdmcp6 (>= 1.1.2)
+Provides: libxcb
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 146160
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-netmap
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6208
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: ros-core
+Version: 1.4.1-r0
+Depends: catkin, class-loader, common-msgs, message-runtime, pluginlib, python-core, ros, ros-comm, rosbag-migration-rule, rosconsole, rosconsole-bridge, roscpp-core, rosgraph-msgs, rospack, std-msgs, std-srvs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1710
+Installed-Time: 1589908490
+
+Package: python-pyyaml
+Version: 3.13-r0
+Depends: libc6 (>= 2.28), libyaml-0-2 (>= 0.2.1), python-core, python-datetime
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 607391
+Installed-Time: 1589908482
+
+Package: diagnostic-msgs
+Version: 1.12.7-r0
+Depends: message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 141807
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: tf2
+Version: 0.6.5-r0
+Depends: geometry-msgs, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rostime (>= 0.6.13-1), tf2-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 200868
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: libyaml-cpp0.6
+Version: 0.6.2-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: yaml-cpp
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 410544
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: libicuuc62
+Version: 62.1-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libicudata62 (>= 62.1), libstdc++6 (>= 8.2.0)
+Provides: libicuuc
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1800648
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: cpp-common
+Version: 0.6.13-1-r0
+Depends: boost, libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 44335
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: rosbag
+Version: 1.14.3-r0
+Depends: boost, cpp-common (>= 0.6.13-1), genmsg, genpy, libboost-filesystem1.68.0 (>= 1.68.0), libboost-program-options1.68.0 (>= 1.68.0), libboost-regex1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, python-gnupg, python-pycrypto, python-rospkg, rosbag-storage (>= 1.14.3), rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), roslib, rospy, rostime (>= 0.6.13-1), std-srvs, topic-tools (>= 1.14.3), xmlrpcpp (>= 1.14.3)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1503185
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: iptables-module-xt-rateest
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 24736
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: shared-mime-info
+Version: 1.10-r0
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), libxml2 (>= 2.9.8)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2581693
+Installed-Time: 1589908470
+Auto-Installed: yes
+
+Package: kernel-module-nf-defrag-ipv4-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Depends: kernel-4.14.0-xilinx-v2018.3
+Provides: kernel-module-nf-defrag-ipv4
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 6544
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: python-ctypes
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libffi6 (>= 3.2.1), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 254695
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: python-gdbm
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libgdbm6 (>= 1.18), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 18448
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-masquerade
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: dropbear
+Version: 2018.76-r0
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libz1 (>= 1.2.11), update-alternatives-opkg
+Provides: ssh, sshd
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 268099
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Depends: kernel-4.14.0-xilinx-v2018.3, kernel-module-libcrc32c-4.14.0-xilinx-v2018.3
+Provides: kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 175368
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: libboost-date-time1.68.0
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-date-time
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 63848
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: libpcre1
+Version: 8.42-r0
+Depends: libc6 (>= 2.28)
+Provides: libpcre
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 251912
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: geometry-msgs
+Version: 1.12.7-r0
+Depends: message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 571451
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libboost-contract1.68.0
+Version: 1.68.0-r0
+Depends: libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-contract
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 129848
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: libgmp10
+Version: 6.1.2-r0
+Depends: libc6 (>= 2.28)
+Provides: gmp
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 442896
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: systemd-conf
+Version: 1.0-r0
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Conffiles:
+ /etc/machine-id d41d8cd98f00b204e9800998ecf8427e
+ /etc/systemd/coredump.conf 2ad769b57d77224f7a460141e3f94258
+ /etc/systemd/journald.conf 3aeb745fc84fde4ca1519bc74f6ee865
+ /etc/systemd/logind.conf 79f1c317eef10168329f11c0a44d2d6b
+ /etc/systemd/system.conf 1e9fe50d1e49bb3936ac8aecdd85a92d
+ /etc/systemd/user.conf 675370e2d80a4ad957202e68c1b4aaee
+Installed-Size: 5499
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: libyaml-0-2
+Version: 0.2.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libyaml
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 112744
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: pcl-msgs
+Version: 0.2.0-r0
+Depends: message-runtime, python-core, sensor-msgs, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 91511
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: iptables-module-xt-addrtype
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14616
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libpython2.7-1.0
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28)
+Provides: libpython2
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1932944
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-srh
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10288
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: wpa-supplicant
+Version: 2.6-r0
+Depends: libc6 (>= 2.28), libdbus-1-3 (>= 1.12.10), libgcrypt (>= 1.8.4), libgnutls30 (>= 3.6.4), libnl-3-200 (>= 3.4.0), libnl-genl-3-200 (>= 3.4.0)
+Recommends: wpa-supplicant-cli, wpa-supplicant-passphrase
+Status: install ok installed
+Architecture: aarch64
+Conffiles:
+ /etc/wpa_supplicant.conf c00ac06edf6935bb553f19124d63b4ea
+Installed-Size: 1199008
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: libgomp1
+Version: 8.2.0-r0
+Depends: libc6 (>= 2.28)
+Provides: libgomp
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 170880
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python-unixadmin
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core, python-io
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 21429
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: iptables-module-xt-standard
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6104
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Conffiles:
+ /etc/opkg/arch.conf 92c0d0c374f23ed096c133ec33c3e87c
+Installed-Size: 107
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: libidn2-0
+Version: 2.0.5-r0
+Depends: libc6 (>= 2.28), libunistring2 (>= 0.9.10)
+Provides: libidn2
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 121072
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: libncursesw5
+Version: 6.1+20180630-r0
+Depends: libc6 (>= 2.28), libtinfo5 (>= 6.1+20180630)
+Provides: ncurses-libncursesw
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 192312
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: libboost-graph1.68.0
+Version: 1.68.0-r0
+Depends: libboost-regex1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-graph
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 314864
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: python3-core
+Version: 3.7.5-r0
+Depends: libc6 (>= 2.28), libpython3.7m1.0 (>= 3.7.5), libreadline7 (>= 7.0), libz1 (>= 1.2.11), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 8742724
+Installed-Time: 1589908463
+Auto-Installed: yes
+
+Package: kernel-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Depends: kernel-image-4.14.0-xilinx-v2018.3
+Provides: kernel-4.14.0-xilinx-v2018.3, kernel-base
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 24258
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: iptables-module-xt-helper
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6208
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: boost-test
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 753624
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: libxext6
+Version: 1:1.3.3-r0
+Depends: libc6 (>= 2.28), libx11-6 (>= 1.6.6)
+Provides: libxext
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 73128
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: libboost-timer1.68.0
+Version: 1.68.0-r0
+Depends: libboost-chrono1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-timer
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 22744
+Installed-Time: 1589908470
+Auto-Installed: yes
+
+Package: gencpp
+Version: 0.6.2-r0
+Depends: genmsg, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 34811
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: iptables-module-xt-policy
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14640
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-comment
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6216
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-hmark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14640
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libfribidi0
+Version: 1.0.5-r0
+Depends: libc6 (>= 2.28)
+Provides: fribidi
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 108600
+Installed-Time: 1589908455
+Auto-Installed: yes
+
+Package: iptables-module-xt-string
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10536
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-threading
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 139371
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: iptables-module-ipt-clusterip
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10312
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: systemd
+Version: 1:239-r0
+Depends: base-files, base-passwd, dbus-1, kmod, libacl1 (>= 2.2.52), libblkid1 (>= 2.32.1), libc6 (>= 2.28), libcap2 (>= 2.25), libcrypt1 (>= 4.1.1), libkmod2 (>= 25+git0+aca4eca103), liblzma5 (>= 5.2.4), libmount1 (>= 2.32.1), shadow, systemd-conf, systemd-container, systemd-serialgetty, systemd-vconsole-setup, udev (= 1:239-r0), update-alternatives-opkg, update-rc.d, util-linux-agetty, util-linux-fsck, util-linux-mount, util-linux-umount, volatile-binds
+Recommends: e2fsprogs-e2fsck, kernel-module-autofs4, kernel-module-ipv6, kernel-module-unix, os-release, systemd-compat-units, systemd-extra-utils, udev-hwdb
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6905167
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: iptables-module-ipt-reject
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10336
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libpocoutil60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libpocojson60 (>= 1.9.0), libpocoxml60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-util
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 440656
+Installed-Time: 1589908470
+Auto-Installed: yes
+
+Package: libboost-python37-1.68.0
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-python
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 278048
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: iptables-module-xt-conntrack
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 28712
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libxcb-render0
+Version: 1.13-r0
+Depends: libc6 (>= 2.28), libxau6 (>= 1.0.8), libxcb1 (>= 1.13), libxdmcp6 (>= 1.1.2)
+Provides: libxcb-render
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 47192
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: python-setuptools
+Version: 40.0.0-r0
+Depends: python-compile, python-compression, python-core, python-ctypes, python-distutils, python-email, python-html, python-netserver, python-numbers, python-pkgutil, python-plistlib, python-shell, python-stringold, python-threading, python-unittest, python-xml
+Provides: python-distribute
+Replaces: python-distribute
+Conflicts: python-distribute
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2932469
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: libkmod2
+Version: 25+git0+aca4eca103-r0
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11)
+Provides: libkmod
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 80536
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: libacl1
+Version: 2.2.52-r0
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.28)
+Provides: libacl
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 35152
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: base-passwd
+Version: 3.5.29-r0
+Status: install ok installed
+Architecture: aarch64
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: lz4
+Version: 1:1.8.2-r0
+Depends: libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 258488
+Installed-Time: 1589908457
+Auto-Installed: yes
+
+Package: python-mmap
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 24784
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: rosnode
+Version: 1.14.3-r0
+Depends: python-core, rosgraph, rostopic
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 58795
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: iptables-module-ipt-ttl
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 16496
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: systemd-serialgetty
+Version: 1.0-r5
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 1059
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: iptables-module-ipt-ulog
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10320
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-dst
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-ipvs
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10560
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: common-msgs
+Version: 1.12.7-r0
+Depends: actionlib-msgs, diagnostic-msgs, geometry-msgs, nav-msgs, python-core, sensor-msgs, shape-msgs, stereo-msgs, trajectory-msgs, visualization-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1286
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: libsystemd0
+Version: 1:239-r0
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25), liblzma5 (>= 5.2.4), libmount1 (>= 2.32.1)
+Provides: libsystemd
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 623032
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: libreadline7
+Version: 7.0-r0
+Depends: libc6 (>= 2.28), libtinfo5 (>= 6.1+20180630)
+Provides: readline
+Status: install ok installed
+Architecture: aarch64
+Conffiles:
+ /etc/inputrc 27bb8dcd68671f6d61f6fda7333f3c26
+Installed-Size: 357937
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: iptables-module-xt-secmark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-ipt-masquerade
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-smtpd
+Version: 2.7.16-r1
+Depends: python-core, python-fcntl, python-io, python-lang
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 112954
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-hl
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 16496
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libcrypt1
+Version: 4.1.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libxcrypt
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 133192
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-ipv4-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Depends: kernel-4.14.0-xilinx-v2018.3, kernel-module-nf-conntrack-4.14.0-xilinx-v2018.3, kernel-module-nf-defrag-ipv4-4.14.0-xilinx-v2018.3
+Provides: kernel-module-nf-conntrack-ipv4
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Size: 19872
+Installed-Time: 1589908474
+Auto-Installed: yes
+
+Package: roscpp-serialization
+Version: 0.6.13-1-r0
+Depends: cpp-common, libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, roscpp-traits, rostime
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 11147
+Installed-Time: 1589908482
+Auto-Installed: yes
+
+Package: tf2-py
+Version: 0.6.5-r0
+Depends: libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpython2.7-1.0 (>= 2.7.16), libstdc++6 (>= 8.2.0), python-core, rospy, rostime (>= 0.6.13-1), tf2 (>= 0.6.5)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 844821
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: libnl-genl-3-200
+Version: 1:3.4.0-r0
+Depends: libc6 (>= 2.28), libnl-3-200 (>= 3.4.0)
+Provides: libnl-genl
+Replaces: libnl-genl2
+Conflicts: libnl-genl2
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 23736
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: bondcpp
+Version: 1.8.3-r0
+Depends: bond, boost, libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), libuuid1 (>= 2.32.1), python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), smclib, util-linux
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 159916
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: shadow
+Version: 4.6-r0
+Depends: base-passwd, libattr1 (>= 2.4.47), libc6 (>= 2.28), libcrypt1 (>= 4.1.1), shadow-base, shadow-securetty, update-alternatives-opkg, util-linux-sulogin
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1521510
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: e2fsprogs-e2fsck
+Version: 1.44.3-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libcom-err2 (>= 1.44.3), libe2p2 (>= 1.44.3), libext2fs2 (>= 1.44.3), libuuid1 (>= 2.32.1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 292144
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: python-re
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 901
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: rosconsole
+Version: 1.13.11-1-r0
+Depends: cpp-common, libapr-1-0, libboost-regex1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), liblog4cxx10 (>= git), libstdc++6 (>= 8.2.0), python-core, rosbuild, rostime (>= 0.6.13-1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 320273
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libboost-program-options1.68.0
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-program-options
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 491376
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: kmod
+Version: 25+git0+aca4eca103-r0
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11), update-alternatives-opkg
+Provides: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Replaces: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Conflicts: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 129895
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: python-bsddb
+Version: 2.7.16-r1
+Depends: db (>= 5.3.28), libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 349420
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: iptables-module-xt-physdev
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: base-files, base-passwd, busybox, netbase, systemd, udev, update-alternatives-opkg
+Recommends: busybox-syslog
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Time: 1589908484
+
+Package: python-sqlite3
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), libsqlite3-0 (>= 3.23.1), python-core, python-datetime
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 94776
+Installed-Time: 1589908482
+Auto-Installed: yes
+
+Package: pkgconfig
+Version: 0.29.2+git0+edf8e6f0ea-r0
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0)
+Provides: pkgconfig(pkg-config)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 53991
+Installed-Time: 1589908476
+Auto-Installed: yes
+
+Package: boost-math
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1165320
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: libpocoxml60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libexpat1 (>= 2.2.6), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-xml
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 494096
+Installed-Time: 1589908465
+Auto-Installed: yes
+
+Package: iptables-module-xt-mangle
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10440
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-sctp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14496
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: message-filters
+Version: 1.14.3-r0
+Depends: libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rosconsole, roscpp
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 43210
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: rosgraph-msgs
+Version: 1.11.2-r0
+Depends: message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 82357
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: iptables-module-xt-state
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 28712
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-iprange
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14856
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables
+Version: 1.6.2-r0
+Depends: iptables-module-xt-standard, libc6 (>= 2.28)
+Recommends: iptables-modules, kernel-module-ip-tables, kernel-module-ipt-masquerade, kernel-module-iptable-filter, kernel-module-iptable-nat, kernel-module-nf-conntrack, kernel-module-nf-conntrack-ipv4, kernel-module-nf-defrag-ipv4, kernel-module-nf-nat, kernel-module-x-tables
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 203760
+Installed-Time: 1589908478
+Auto-Installed: yes
+
+Package: ros
+Version: 1.14.7-1-r0
+Depends: catkin, mk, python-core, rosbash, rosboost-cfg, rosbuild, rosclean, roscreate, roslang, roslib, rosmake, rosunit
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1181
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: iptables-module-ipt-dnat
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10376
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libgnutls30
+Version: 3.6.4-r0
+Depends: libc6 (>= 2.28), libgmp10 (>= 6.1.2), libidn2-0 (>= 2.0.5), libunistring2 (>= 0.9.10), nettle (>= 3.4)
+Provides: gnutls
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1685080
+Installed-Time: 1589908463
+Auto-Installed: yes
+
+Package: kbd-keymaps
+Version: 2.0.4-r0
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 495588
+Installed-Time: 1589908453
+Auto-Installed: yes
+
+Package: python-compile
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 27448
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: iptables-module-xt-connlimit
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10864
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: actionlib-msgs
+Version: 1.12.7-r0
+Depends: message-generation, message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 81113
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: iptables-module-xt-nfacct
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6208
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libpixman-1-0
+Version: 1:0.34.0-r0
+Depends: libc6 (>= 2.28)
+Provides: pixman
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 379472
+Installed-Time: 1589908455
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-reject
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-robotparser
+Version: 2.7.16-r1
+Depends: python-contextlib, python-core, python-io, python-lang, python-netclient, python-textutils
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 15650
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: libext2fs2
+Version: 1.44.3-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libcom-err2 (>= 1.44.3)
+Provides: libext2fs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 357896
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: iptables-module-xt-nfqueue
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10904
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-dccp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14440
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libgdbm6
+Version: 1.18-r0
+Depends: libc6 (>= 2.28)
+Provides: gdbm
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 60320
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python-compiler
+Version: 2.7.16-r1
+Depends: python-core, python-io, python-lang
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 420673
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: iptables-module-xt-classify
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6416
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: velodyne-msgs
+Version: 1.5.2-r0
+Depends: message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 41407
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: python3-datetime
+Version: 3.7.5-r0
+Depends: libc6 (>= 2.28), libpython3.7m1.0 (>= 3.7.5), python3-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 510648
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: udev
+Version: 1:239-r0
+Depends: libacl1 (>= 2.2.52), libblkid1 (>= 2.32.1), libc6 (>= 2.28), libcap2 (>= 2.25), libkmod2 (>= 25+git0+aca4eca103), libmount1 (>= 2.32.1)
+Provides: hotplug
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1687016
+Installed-Time: 1589908465
+Auto-Installed: yes
+
+Package: bluez5
+Version: 5.50-r0
+Depends: libc6 (>= 2.28), libdbus-1-3 (>= 1.12.10), libglib-2.0-0 (>= 2.58.0), libreadline7 (>= 7.0), libudev1 (>= 239)
+Provides: bluez-hcidump
+Conflicts: bluez4
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 3841620
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: iptables-module-xt-dscp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 21024
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-mime
+Version: 2.7.16-r1
+Depends: python-contextlib, python-core, python-crypt, python-fcntl, python-io, python-lang, python-math, python-netclient, python-textutils
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 158249
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: libfdisk1
+Version: 2.32.1-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libuuid1 (>= 2.32.1)
+Provides: util-linux-libfdisk
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 430120
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: iptables-modules
+Version: 1.6.2-r0
+Depends: iptables-module-ebt-802-3, iptables-module-ebt-ip, iptables-module-ebt-log, iptables-module-ebt-mark-m, iptables-module-ip6t-ah, iptables-module-ip6t-dnat, iptables-module-ip6t-dnpt, iptables-module-ip6t-dst, iptables-module-ip6t-eui64, iptables-module-ip6t-frag, iptables-module-ip6t-hbh, iptables-module-ip6t-hl, iptables-module-ip6t-icmp6, iptables-module-ip6t-ipv6header, iptables-module-ip6t-log, iptables-module-ip6t-masquerade, iptables-module-ip6t-mh, iptables-module-ip6t-netmap, iptables-module-ip6t-redirect, iptables-module-ip6t-reject, iptables-module-ip6t-rt, iptables-module-ip6t-snat, iptables-module-ip6t-snpt, iptables-module-ip6t-srh, iptables-module-ipt-ah, iptables-module-ipt-clusterip, iptables-module-ipt-dnat, iptables-module-ipt-ecn, iptables-module-ipt-icmp, iptables-module-ipt-log, iptables-module-ipt-masquerade, iptables-module-ipt-netmap, iptables-module-ipt-realm, iptables-module-ipt-redirect, iptables-module-ipt-reject, iptables-module-ipt-snat, iptables-module-ipt-ttl, iptables-module-ipt-ulog, iptables-module-xt-addrtype, iptables-module-xt-audit, iptables-module-xt-bpf, iptables-module-xt-cgroup, iptables-module-xt-checksum, iptables-module-xt-classify, iptables-module-xt-cluster, iptables-module-xt-comment, iptables-module-xt-connbytes, iptables-module-xt-connlimit, iptables-module-xt-connmark, iptables-module-xt-connsecmark, iptables-module-xt-conntrack, iptables-module-xt-cpu, iptables-module-xt-ct, iptables-module-xt-dccp, iptables-module-xt-devgroup, iptables-module-xt-dscp, iptables-module-xt-ecn, iptables-module-xt-esp, iptables-module-xt-hashlimit, iptables-module-xt-helper, iptables-module-xt-hmark, iptables-module-xt-idletimer, iptables-module-xt-ipcomp, iptables-module-xt-iprange, iptables-module-xt-ipvs, iptables-module-xt-led, iptables-module-xt-length, iptables-module-xt-limit, iptables-module-xt-mac, iptables-module-xt-mangle, iptables-module-xt-mark, iptables-module-xt-multiport, iptables-module-xt-nfacct, iptables-module-xt-nflog, iptables-module-xt-nfqueue, iptables-module-xt-notrack, iptables-module-xt-osf, iptables-module-xt-owner, iptables-module-xt-physdev, iptables-module-xt-pkttype, iptables-module-xt-policy, iptables-module-xt-quota, iptables-module-xt-rateest, iptables-module-xt-recent, iptables-module-xt-rpfilter, iptables-module-xt-sctp, iptables-module-xt-secmark, iptables-module-xt-set, iptables-module-xt-socket, iptables-module-xt-standard, iptables-module-xt-state, iptables-module-xt-statistic, iptables-module-xt-string, iptables-module-xt-synproxy, iptables-module-xt-tcp, iptables-module-xt-tcpmss, iptables-module-xt-tcpoptstrip, iptables-module-xt-tee, iptables-module-xt-time, iptables-module-xt-tos, iptables-module-xt-tproxy, iptables-module-xt-trace, iptables-module-xt-u32, iptables-module-xt-udp
+Status: install ok installed
+Architecture: aarch64
+Installed-Time: 1589908482
+Auto-Installed: yes
+
+Package: liblzma5
+Version: 5.2.4-r0
+Depends: libc6 (>= 2.28)
+Provides: liblzma
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 145920
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python-xml
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 833605
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: ca-certificates
+Version: 20190110-r0
+Depends: openssl
+Status: install ok installed
+Architecture: all
+Conffiles:
+ /etc/ca-certificates.conf fd544e0f288d252e6d593a46493c1ca9
+Installed-Size: 211391
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: diagnostic-updater
+Version: 1.9.3-r0
+Depends: diagnostic-msgs, python-core, roscpp, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 68898
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: bash-real
+Version: 4.4.18-r0
+Depends: libc6 (>= 2.28), libtinfo5 (>= 6.1+20180630)
+Provides: bash-real
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1031632
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: libpanelw5
+Version: 6.1+20180630-r0
+Depends: libc6 (>= 2.28), libncursesw5 (>= 6.1+20180630), libtinfo5 (>= 6.1+20180630)
+Provides: ncurses-libpanelw
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14072
+Installed-Time: 1589908463
+Auto-Installed: yes
+
+Package: iptables-module-xt-tcp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14456
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libgdbm-compat4
+Version: 1.18-r0
+Depends: libc6 (>= 2.28), libgdbm6 (>= 1.18)
+Provides: gdbm-compat
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10224
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: iptables-module-xt-set
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 38536
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: smclib
+Version: 1.8.3-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14951
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: rosmsg
+Version: 1.14.3-r0
+Depends: catkin, genmsg, genpy, python-core, python-rospkg, rosbag, roslib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 66146
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: ncurses-terminfo-base
+Version: 6.1+20180630-r0
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 21726
+Installed-Time: 1589908453
+Auto-Installed: yes
+
+Package: util-linux-cfdisk
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libfdisk1 (>= 2.32.1), libmount1 (>= 2.32.1), libncursesw5 (>= 6.1+20180630), libsmartcols1 (>= 2.32.1), libtinfo5 (>= 6.1+20180630)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 90264
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: libattr1
+Version: 2.4.47-r0
+Depends: libc6 (>= 2.28)
+Provides: libattr
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 18568
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: pluginlib
+Version: 1.12.1-r0
+Depends: boost, class-loader, libtinyxml2-6, python-core, rosconsole, roslib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 4519
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: python-dateutil
+Version: 2.7.3-r0
+Depends: python-datetime, python-numbers, python-six, python-stringold
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 481978
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: libpcap1
+Version: 1.8.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libpcap
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 253088
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: libpython3.7m1.0
+Version: 3.7.5-r0
+Depends: libc6 (>= 2.28)
+Provides: libpython3
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 3252696
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: tf2-ros
+Version: 0.6.5-r0
+Depends: actionlib (>= 1.12.0-1), actionlib-msgs, geometry-msgs, libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-filters, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rosgraph, rospy, rostime (>= 0.6.13-1), std-msgs, tf2 (>= 0.6.5), tf2-msgs, tf2-py, xmlrpcpp (>= 1.14.3)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 904516
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: libfontconfig1
+Version: 2.12.6-r0
+Depends: libc6 (>= 2.28), libexpat1 (>= 2.2.6), libfreetype6 (>= 2.9.1)
+Provides: fontconfig
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 364176
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: pango
+Version: 1.42.4-r0
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.12), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libfribidi0 (>= 1.0.5), libglib-2.0-0 (>= 2.58.0), libharfbuzz0 (>= 1.8.8), libx11-6 (>= 1.6.6), libxft2 (>= 2.3.2), libxrender1 (>= 0.9.10)
+Provides: pango-module-arabic-lang, pango-module-basic-fc, pango-module-indic-lang, pango-modules
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 585220
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: iptables-module-ebt-802-3
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10288
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: update-rc.d
+Version: 0.8-r0
+Status: install ok installed
+Architecture: all
+Installed-Size: 4816
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: python-multiprocessing
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core, python-fcntl, python-io, python-pickle, python-subprocess, python-threading
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 372891
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-mh
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10352
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libssl1.1
+Version: 1.1.1b-r0
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b)
+Provides: libssl
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 560232
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: util-linux-fdisk
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libfdisk1 (>= 2.32.1), libsmartcols1 (>= 2.32.1), libtinfo5 (>= 6.1+20180630), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 119152
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: iptables-module-xt-multiport
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 15016
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libcap2
+Version: 2.25-r0
+Depends: libc6 (>= 2.28)
+Provides: libcap
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 22880
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: libpocozip60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-zip
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 262464
+Installed-Time: 1589908465
+Auto-Installed: yes
+
+Package: iptables-module-xt-ecn
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-fcntl
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 22096
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: boost
+Version: 1.68.0-r0
+Recommends: boost-exception, boost-log, boost-math, boost-serialization, boost-test, libboost-atomic1.68.0, libboost-chrono1.68.0, libboost-container1.68.0, libboost-contract1.68.0, libboost-date-time1.68.0, libboost-filesystem1.68.0, libboost-graph1.68.0, libboost-iostreams1.68.0, libboost-locale1.68.0, libboost-program-options1.68.0, libboost-python37-1.68.0, libboost-random1.68.0, libboost-regex1.68.0, libboost-signals1.68.0, libboost-system1.68.0, libboost-thread1.68.0, libboost-timer1.68.0, libboost-wave1.68.0
+Status: install ok installed
+Architecture: aarch64
+Installed-Time: 1589908477
+Auto-Installed: yes
+
+Package: util-linux-prlimit
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libsmartcols1 (>= 2.32.1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 31592
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: iptables-module-xt-tee
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10536
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: gpgme
+Version: 1.11.1-r0
+Depends: libassuan0 (>= 2.5.1), libc6 (>= 2.28), libgpg-error (>= 1.32)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 403232
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: kbd
+Version: 2.0.4-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Provides: console-tools
+Replaces: console-tools
+Conflicts: console-tools
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 518124
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: libboost-random1.68.0
+Version: 1.68.0-r0
+Depends: libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-random
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 26808
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: iptables-module-xt-owner
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14824
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libboost-container1.68.0
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-container
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 88744
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: libboost-filesystem1.68.0
+Version: 1.68.0-r0
+Depends: libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-filesystem
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 97272
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: libz1
+Version: 1.2.11-r0
+Depends: libc6 (>= 2.28)
+Provides: zlib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 88304
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: iptables-module-xt-ct
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 15632
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-stringold
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 24944
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: python-rospkg
+Version: 1.1.10-r0
+Depends: python-core, python-rosdep, python-xml
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 221652
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: iptables-module-xt-tcpmss
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 16688
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libglib-2.0-0
+Version: 1:2.58.0-r0
+Depends: libc6 (>= 2.28), libffi6 (>= 3.2.1), libmount1 (>= 2.32.1), libpcre1 (>= 8.42), libz1 (>= 1.2.11)
+Recommends: shared-mime-info
+Provides: glib-2.0
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 3311248
+Installed-Time: 1589908465
+Auto-Installed: yes
+
+Package: python-pkgutil
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 39136
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: util-linux-fsck
+Version: 2.32.1-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libmount1 (>= 2.32.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 43864
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: rosmake
+Version: 1.14.7-1-r0
+Depends: catkin, python-core, python-rospkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 113616
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: tf2-msgs
+Version: 0.6.5-r0
+Depends: actionlib-msgs, geometry-msgs, message-generation, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 322110
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: libx11-6
+Version: 1:1.6.6-r0
+Depends: libc6 (>= 2.28), libxcb1 (>= 1.13)
+Provides: libx11
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1303600
+Installed-Time: 1589908461
+Auto-Installed: yes
+
+Package: nodelet-topic-tools
+Version: 1.9.16-r0
+Depends: boost, dynamic-reconfigure, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 4743
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: iptables-module-xt-udp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10312
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-logging
+Version: 2.7.16-r1
+Depends: python-core, python-io, python-threading
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 267414
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: roslang
+Version: 1.14.7-1-r0
+Depends: catkin, genmsg, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 641
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: iptables-module-ipt-icmp
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14440
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-2to3
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 624199
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: python-subprocess
+Version: 2.7.16-r1
+Depends: python-core, python-fcntl, python-io, python-pickle, python-threading
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 82810
+Installed-Time: 1589908483
+Auto-Installed: yes
+
+Package: python-hotshot
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 56167
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-snat
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10360
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: pcl-ros
+Version: 1.7.0-2-r0
+Depends: class-loader (>= 0.4.1), cpp-common (>= 0.6.13-1), dynamic-reconfigure (>= 1.6.0), geometry-msgs, libboost-filesystem1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libeigen, libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-filters (>= 1.14.3), nodelet (>= 1.9.16), nodelet-topic-tools, pcl (>= 1.8.1), pcl-conversions, pcl-msgs, pluginlib, python-core, rosbag, rosbag-storage (>= 1.14.3), rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), sensor-msgs, std-msgs, tf (>= 1.12.0), tf2 (>= 0.6.5), tf2-eigen, tf2-ros (>= 0.6.5), xmlrpcpp (>= 1.14.3)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 5954056
+Installed-Time: 1589908490
+Auto-Installed: yes
+
+Package: netbase
+Version: 1:5.4-r0
+Status: install ok installed
+Architecture: aarch64
+Conffiles:
+ /etc/hosts 4af6093d05fd4d338a78484bd352927d
+Installed-Size: 23263
+Installed-Time: 1589908452
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-frag
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libpocodata60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-data
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1828840
+Installed-Time: 1589908465
+Auto-Installed: yes
+
+Package: roscreate
+Version: 1.14.7-1-r0
+Depends: python-core, python-rospkg, roslib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 22077
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: graphviz
+Version: 2.40.1-r0
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.12), libexpat1 (>= 2.2.6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libgdk-pixbuf-2.0-0 (>= 2.36.11), libglib-2.0-0 (>= 2.58.0), libltdl7 (>= 2.4.6), librsvg-2-2 (>= 2.40.20), libx11-6 (>= 1.6.6), libxrender1 (>= 0.9.10), libz1 (>= 1.2.11), pango (>= 1.42.4)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 11189767
+Installed-Time: 1589908482
+Auto-Installed: yes
+
+Package: iptables-module-xt-idletimer
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-pyparsing
+Version: 2.2.0-r0
+Depends: python-core, python-datetime, python-debugger, python-json, python-netclient, python-pprint, python-stringold, python-threading
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 463084
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: iptables-module-xt-recent
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14792
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: roslz4
+Version: 1.14.3-r0
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), lz4 (>= 1.8.2), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 33038
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: iptables-module-xt-hashlimit
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 32096
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: poco
+Version: 1.9.0-r0
+Recommends: libpococrypto60, libpocodata60, libpocodatasqlite60, libpocoencodings60, libpocofoundation60, libpocojson60, libpocomongodb60, libpoconet60, libpoconetssl60, libpocopdf60, libpocoredis60, libpocoutil60, libpocoxml60, libpocozip60
+Status: install ok installed
+Architecture: aarch64
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: python-image
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 16013
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: rospack
+Version: 2.5.4-1-r0
+Depends: boost, libboost-filesystem1.68.0 (>= 1.68.0), libboost-program-options1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpython2.7-1.0 (>= 2.7.16), libstdc++6 (>= 8.2.0), libtinyxml2-6 (>= 6.2.0), pkgconfig, python, python-catkin-pkg, python-core, python-rosdep, ros-environment
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 272194
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: python-pbr
+Version: 4.2.0-r0
+Depends: python-core, python-pip
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 500047
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: libgcc1
+Version: 8.2.0-r0
+Depends: libc6 (>= 2.28)
+Provides: libgcc
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 80056
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: visualization-msgs
+Version: 1.12.7-r0
+Depends: geometry-msgs, message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 611610
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: kernel-image-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Depends: kernel-image-image-4.14.0-xilinx-v2018.3
+Provides: kernel-image
+Status: install ok installed
+Architecture: zcu104_zynqmp
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: python-rosdep
+Version: 0.16.1-r0
+Depends: ca-certificates, python-catkin-pkg, python-core, python-netclient, python-pyyaml, python-rosdistro, python-rospkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 492867
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: liblzo2-2
+Version: 2.10-r0
+Depends: libc6 (>= 2.28)
+Provides: lzo
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 120816
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python3-pyyaml
+Version: 3.13-r0
+Depends: libc6 (>= 2.28), libpython3.7m1.0 (>= 3.7.5), libyaml-0-2 (>= 0.2.1), python3-core, python3-datetime
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 571595
+Installed-Time: 1589908474
+
+Package: libboost-chrono1.68.0
+Version: 1.68.0-r0
+Depends: libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-chrono
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 30896
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: libicui18n62
+Version: 62.1-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libicudata62 (>= 62.1), libicuuc62 (>= 62.1), libstdc++6 (>= 8.2.0)
+Provides: libicui18n
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2731104
+Installed-Time: 1589908465
+Auto-Installed: yes
+
+Package: python-audio
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core, python-crypt, python-fcntl, python-io, python-math
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 155460
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: bond
+Version: 1.8.3-r0
+Depends: message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 38545
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: python-modules
+Version: 2.7.16-r1
+Depends: python-2to3, python-argparse, python-audio, python-bsddb, python-codecs, python-compile, python-compiler, python-compression, python-contextlib, python-core, python-crypt, python-ctypes, python-curses, python-datetime, python-db, python-debugger, python-difflib, python-distutils, python-doctest, python-email, python-fcntl, python-gdbm, python-hotshot, python-html, python-idle, python-image, python-io, python-json, python-lang, python-logging, python-mailbox, python-math, python-mime, python-misc, python-mmap, python-multiprocessing, python-netclient, python-netserver, python-numbers, python-pickle, python-pkgutil, python-plistlib, python-pprint, python-profile, python-pydoc, python-re, python-resource, python-robotparser, python-runpy, python-shell, python-smtpd, python-sqlite3, python-stringold, python-subprocess, python-syslog, python-terminal, python-textutils, python-threading, python-tkinter, python-unittest, python-unixadmin, python-xml, python-xmlrpc, python-zlib
+Status: install ok installed
+Architecture: aarch64
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: libexpat1
+Version: 2.2.6-r0
+Depends: libc6 (>= 2.28)
+Provides: expat
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 190520
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: python-runpy
+Version: 2.7.16-r1
+Depends: python-core, python-pkgutil
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 19844
+Installed-Time: 1589908474
+Auto-Installed: yes
+
+Package: libassuan0
+Version: 2.5.1-r0
+Depends: libc6 (>= 2.28), libgpg-error (>= 1.32)
+Provides: libassuan
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 72480
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: python-plistlib
+Version: 2.7.16-r1
+Depends: python-core, python-datetime, python-io
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 34308
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: libaprutil-1-0
+Version: 1.6.1-r0
+Depends: libapr-1-0 (>= 1.6.3), libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libcrypto1.1 (>= 1.1.1b), libexpat1 (>= 2.2.6), libgdbm6 (>= 1.18), libssl1.1 (>= 1.1.1b), libuuid1 (>= 2.32.1)
+Provides: apr-util
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 201336
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: util-linux-losetup
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libsmartcols1 (>= 2.32.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 80864
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: actionlib
+Version: 1.12.0-1-r0
+Depends: actionlib-msgs, boost, libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-runtime, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roslib, rospy, rostest, rostime (>= 0.6.13-1), rostopic, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 834039
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: iptables-module-ebt-ip
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10376
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: util-linux-readprofile
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14600
+Installed-Time: 1589908459
+Auto-Installed: yes
+
+Package: iptables-module-xt-mark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 21192
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-rosdistro
+Version: 0.8.0-r0
+Depends: python-core, python-pyyaml
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 396824
+Installed-Time: 1589908483
+Auto-Installed: yes
+
+Package: run-postinsts
+Version: 1.0-r10
+Status: install ok installed
+Architecture: all
+Installed-Size: 2345
+Installed-Time: 1589908452
+
+Package: iptables-module-ip6t-dnpt
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6208
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: systemd-compat-units
+Version: 1.0-r29
+Depends: systemd
+Status: install ok installed
+Architecture: aarch64
+Installed-Time: 1589908482
+Auto-Installed: yes
+
+Package: libboost-system1.68.0
+Version: 1.68.0-r0
+Depends: libc6 (>= 2.28), libstdc++6 (>= 8.2.0)
+Provides: boost-system
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 18432
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: util-linux
+Version: 2.32.1-r0
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libmount1 (>= 2.32.1), libsmartcols1 (>= 2.32.1), libtinfo5 (>= 6.1+20180630), libuuid1 (>= 2.32.1), update-alternatives-opkg, util-linux-losetup, util-linux-lsblk, util-linux-sulogin, util-linux-swaponoff, util-linux-umount
+Recommends: util-linux-cfdisk, util-linux-fdisk, util-linux-ionice, util-linux-mkfs, util-linux-mount, util-linux-mountpoint, util-linux-prlimit, util-linux-readprofile, util-linux-sfdisk, util-linux-switch-root
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 2038612
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: python-misc
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 3179278
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: iptables-module-xt-time
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14472
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-ipt-redirect
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-checksum
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6200
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-profile
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-codecs, python-core, python-lang, python-resource, python-textutils
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 124642
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: python-compression
+Version: 2.7.16-r1
+Depends: libbz2-1 (>= 1.0.6), libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core, python-io, python-shell, python-unixadmin, python-zlib
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 340202
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: db
+Version: 1:5.3.28-r1
+Depends: libc6 (>= 2.28)
+Conflicts: db3
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1140200
+Installed-Time: 1589908455
+Auto-Installed: yes
+
+Package: libboost-wave1.68.0
+Version: 1.68.0-r0
+Depends: libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-wave
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1031936
+Installed-Time: 1589908470
+Auto-Installed: yes
+
+Package: connman
+Version: 1.35-r0
+Depends: bluez5, dbus-1, iptables (>= 1.6.2), libc6 (>= 2.28), libdbus-1-3 (>= 1.12.10), libglib-2.0-0 (>= 2.58.0), libgnutls30 (>= 3.6.4), ofono, update-alternatives-opkg, wpa-supplicant
+Recommends: connman-conf
+Provides: connman-plugin-ethernet, connman-plugin-loopback, connman-plugin-ofono, connman-plugin-wifi
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 888069
+Installed-Time: 1589908483
+
+Package: roslaunch
+Version: 1.14.3-r0
+Depends: python-core, python-paramiko, python-pyyaml, python-rospkg, rosclean, rosgraph-msgs, roslib, rosmaster, rosout, rosparam, rosunit
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 621002
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: iptables-module-ipt-log
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10320
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: catkin-implicitworkspace
+Version: 0.7.19-1-r0
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 28
+Installed-Time: 1589908512
+
+Package: iptables-module-xt-osf
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10296
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libcairo2
+Version: 1.14.12-r0
+Depends: libc6 (>= 2.28), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libpixman-1-0 (>= 0.34.0), libpng16-16 (>= 1.6.36), libx11-6 (>= 1.6.6), libxcb-render0 (>= 1.13), libxcb-shm0 (>= 1.13), libxcb1 (>= 1.13), libxext6 (>= 1.3.3), libxrender1 (>= 0.9.10), libz1 (>= 1.2.11)
+Provides: cairo
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1029192
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: rosclean
+Version: 1.14.7-1-r0
+Depends: python-core, python-rospkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 21000
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: iptables-module-xt-tcpoptstrip
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10336
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libxau6
+Version: 1:1.0.8-r0
+Depends: libc6 (>= 2.28)
+Provides: libxau
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 14296
+Installed-Time: 1589908457
+Auto-Installed: yes
+
+Package: roscpp-traits
+Version: 0.6.13-1-r0
+Depends: cpp-common, python-core, rostime
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 668
+Installed-Time: 1589908482
+Auto-Installed: yes
+
+Package: libudev1
+Version: 1:239-r0
+Depends: libc6 (>= 2.28), libmount1 (>= 2.32.1)
+Provides: libudev
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 141328
+Installed-Time: 1589908464
+Auto-Installed: yes
+
+Package: libltdl7
+Version: 2.4.6-r0
+Depends: libc6 (>= 2.28)
+Provides: libltdl
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 39296
+Installed-Time: 1589908457
+Auto-Installed: yes
+
+Package: iptables-module-xt-tproxy
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10712
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-argparse
+Version: 2.7.16-r1
+Depends: python-codecs, python-core, python-lang, python-textutils
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 153285
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: python-html
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 179288
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: python-pickle
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), python-core, python-io
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 324784
+Installed-Time: 1589908482
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-rt
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10336
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: nodelet
+Version: 1.9.16-r0
+Depends: bondcpp (>= 1.8.3), boost, class-loader (>= 0.4.1), libboost-filesystem1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), libtinyxml2-6 (>= 6.2.0), libuuid1 (>= 2.32.1), message-runtime, pluginlib, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), roslib (>= 1.14.7-1), rospy, rostime (>= 0.6.13-1), std-msgs, util-linux, xmlrpcpp (>= 1.14.3)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 533240
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: python-terminal
+Version: 2.7.16-r1
+Depends: python-core, python-io
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 12194
+Installed-Time: 1589908484
+Auto-Installed: yes
+
+Package: rosout
+Version: 1.14.3-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rosgraph-msgs, rostime (>= 0.6.13-1)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 81259
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: rosbag-migration-rule
+Version: 1.0.0-r0
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 416
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: rospy
+Version: 1.14.3-r0
+Depends: genpy, python-core, python-numpy, python-pyyaml, python-rospkg, roscpp, rosgraph, rosgraph-msgs, roslib, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 674887
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: iptables-module-ebt-log
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10328
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: wpa-supplicant-passphrase
+Version: 2.6-r0
+Depends: libc6 (>= 2.28), libgcrypt (>= 1.8.4)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 43488
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: python-doctest
+Version: 2.7.16-r1
+Depends: python-core, python-crypt, python-debugger, python-difflib, python-fcntl, python-io, python-lang, python-math, python-pprint, python-shell, python-unittest
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 188490
+Installed-Time: 1589908485
+Auto-Installed: yes
+
+Package: iptables-module-ip6t-log
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10320
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: iptables-module-xt-connmark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 25096
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: python-idle
+Version: 2.7.16-r1
+Depends: python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1537480
+Installed-Time: 1589908466
+Auto-Installed: yes
+
+Package: libpococrypto60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libssl1.1 (>= 1.1.1b), libstdc++6 (>= 8.2.0)
+Provides: poco-crypto
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 226240
+Installed-Time: 1589908465
+Auto-Installed: yes
+
+Package: python-ecdsa
+Version: 0.13-r0
+Depends: python-core, python-pbr
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 251807
+Installed-Time: 1589908486
+Auto-Installed: yes
+
+Package: libe2p2
+Version: 1.44.3-r0
+Depends: libc6 (>= 2.28)
+Provides: libe2p
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 32448
+Installed-Time: 1589908458
+Auto-Installed: yes
+
+Package: class-loader
+Version: 0.4.1-r0
+Depends: boost, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0), poco, python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 159481
+Installed-Time: 1589908480
+Auto-Installed: yes
+
+Package: libicudata62
+Version: 62.1-r0
+Depends: libc6 (>= 2.28)
+Provides: libicudata
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 26842880
+Installed-Time: 1589908457
+Auto-Installed: yes
+
+Package: python-zlib
+Version: 2.7.16-r1
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), libz1 (>= 1.2.11), python-core
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 26736
+Installed-Time: 1589908467
+Auto-Installed: yes
+
+Package: sensor-msgs
+Version: 1.12.7-r0
+Depends: geometry-msgs, message-runtime, python-core, std-msgs
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 903617
+Installed-Time: 1589908487
+Auto-Installed: yes
+
+Package: iptables-module-xt-connsecmark
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6208
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: libgdk-pixbuf-2.0-0
+Version: 2.36.11-r0
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), libpng16-16 (>= 1.6.36), libz1 (>= 1.2.11), shared-mime-info
+Provides: gdk-pixbuf
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 175160
+Installed-Time: 1589908476
+Auto-Installed: yes
+
+Package: libpocofoundation60
+Version: 1.9.0-r0
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpcre1 (>= 8.42), libstdc++6 (>= 8.2.0), libz1 (>= 1.2.11)
+Provides: poco-foundation
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1707328
+Installed-Time: 1589908462
+Auto-Installed: yes
+
+Package: iptables-module-xt-bpf
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10528
+Installed-Time: 1589908481
+Auto-Installed: yes
+
+Package: udev-hwdb
+Version: 1:239-r0
+Depends: udev
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 6277859
+Installed-Time: 1589908469
+Auto-Installed: yes
+
+Package: libpocoencodings60
+Version: 1.9.0-r0
+Depends: libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-encodings
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 589152
+Installed-Time: 1589908465
+Auto-Installed: yes
+
+Package: util-linux-sulogin
+Version: 2.32.1-r0
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), update-alternatives-opkg
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 43832
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: python-contextlib
+Version: 2.7.16-r1
+Depends: python-core, python-lang
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 8854
+Installed-Time: 1589908474
+Auto-Installed: yes
+
+Package: libfreetype6
+Version: 2.9.1-r0
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11)
+Provides: freetype
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 637768
+Installed-Time: 1589908460
+Auto-Installed: yes
+
+Package: rostest
+Version: 1.14.3-r0
+Depends: boost, python-core, rosgraph, roslaunch, rosmaster, rospy, rosunit
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 88633
+Installed-Time: 1589908489
+Auto-Installed: yes
+
+Package: roscpp
+Version: 1.14.3-r0
+Depends: cpp-common (>= 0.6.13-1), libboost-chrono1.68.0 (>= 1.68.0), libboost-filesystem1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-runtime, python-core, rosconsole (>= 1.13.11-1), roscpp-serialization (>= 0.6.13-1), roscpp-traits, rosgraph-msgs, rostime (>= 0.6.13-1), std-msgs, xmlrpcpp (>= 1.14.3)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 1717114
+Installed-Time: 1589908488
+Auto-Installed: yes
+
+Package: iptables-module-ipt-ah
+Version: 1.6.2-r0
+Depends: iptables (>= 1.6.2), libc6 (>= 2.28)
+Status: install ok installed
+Architecture: aarch64
+Installed-Size: 10304
+Installed-Time: 1589908481
+Auto-Installed: yes
+

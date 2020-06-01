@@ -1,0 +1,13 @@
+Package: kernel-module-libcrc32c-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Description: libcrc32c kernel module
+ libcrc32c kernel module; CRC32c (Castagnoli) calculations
+Section: kernel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2
+Architecture: zcu104_zynqmp
+OE: linux-xlnx
+Depends: kernel-4.14.0-xilinx-v2018.3
+Provides: kernel-module-libcrc32c
+Source: linux-xlnx_2018.3.bb

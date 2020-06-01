@@ -1,0 +1,11 @@
+Package: volatile-binds
+Version: 1.0-r0
+Description: Volatile bind mount setup and configuration for read-only-rootfs
+ Volatile bind mount setup and configuration for read-only-rootfs
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: all
+OE: volatile-binds
+Source: volatile-binds.bb

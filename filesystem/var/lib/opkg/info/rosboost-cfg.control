@@ -1,0 +1,14 @@
+Package: rosboost-cfg
+Version: 1.14.7-1-r0
+Description: rosboost-cfg version 1.14.7-1-r0
+ Contains scripts used by the rosboost-cfg tool for determining
+ cflags/lflags/etc. of boost on your system
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosboost-cfg
+Homepage: http://ros.org/wiki/rosboost_cfg
+Depends: python-core
+Source: rosboost-cfg_1.14.7-1.bb

@@ -1,0 +1,3 @@
+/var/lib/opkg/
+/usr/lib/libopkg.so.1
+/usr/lib/libopkg.so.1.0.0

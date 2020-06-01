@@ -1,0 +1,13 @@
+Package: update-rc.d
+Version: 0.8-r0
+Description: manage symlinks in /etc/rcN.d
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2+
+Architecture: all
+OE: update-rc.d
+Homepage: http://github.com/philb/update-rc.d/
+Source: update-rc.d_0.8.bb

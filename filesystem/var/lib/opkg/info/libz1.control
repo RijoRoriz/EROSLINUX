@@ -1,0 +1,15 @@
+Package: libz1
+Version: 1.2.11-r0
+Description: Zlib Compression Library
+ Zlib is a general-purpose, patent-free, lossless data compression library
+ which is used by many different programs.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Zlib
+Architecture: aarch64
+OE: zlib
+Homepage: http://zlib.net/
+Depends: libc6 (>= 2.28)
+Provides: zlib
+Source: zlib_1.2.11.bb

@@ -1,0 +1,13 @@
+Package: python-pip
+Version: 18.0-r0
+Description: PIP is a tool for installing and managing Python packages
+ PIP is a tool for installing and managing Python packages.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT & LGPL-2.1
+Architecture: aarch64
+OE: python-pip
+Homepage: https://pip.pypa.io/
+Depends: python-distribute, python-misc, python-modules
+Source: python-pip_18.0.bb

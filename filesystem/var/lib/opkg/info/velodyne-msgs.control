@@ -1,0 +1,13 @@
+Package: velodyne-msgs
+Version: 1.5.2-r0
+Description: velodyne-msgs version 1.5.2-r0
+ ROS message definitions for Velodyne 3D LIDARs.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: velodyne-msgs
+Homepage: http://ros.org/wiki/velodyne_msgs
+Depends: message-runtime, python-core, std-msgs
+Source: velodyne-msgs_1.5.2.bb

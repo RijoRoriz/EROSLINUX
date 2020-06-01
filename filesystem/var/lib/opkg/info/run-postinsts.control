@@ -1,0 +1,11 @@
+Package: run-postinsts
+Version: 1.0-r10
+Description: Runs postinstall scripts on first boot of the target device
+ Runs postinstall scripts on first boot of the target device.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: all
+OE: run-postinsts
+Source: run-postinsts_1.0.bb

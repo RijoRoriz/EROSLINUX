@@ -1,0 +1,15 @@
+Package: diagnostic-updater
+Version: 1.9.3-r0
+Description: diagnostic-updater version 1.9.3-r0
+ diagnostic_updater contains tools for easily updating diagnostics. it is
+ commonly used in device drivers to keep track of the status of output
+ topics, device status, etc.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: diagnostic-updater
+Homepage: http://www.ros.org/wiki/diagnostic_updater
+Depends: diagnostic-msgs, python-core, roscpp, std-msgs
+Source: diagnostic-updater_1.9.3.bb

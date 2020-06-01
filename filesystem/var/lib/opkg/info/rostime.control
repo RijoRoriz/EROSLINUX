@@ -1,0 +1,13 @@
+Package: rostime
+Version: 0.6.13-1-r0
+Description: rostime version 0.6.13-1-r0
+ Time and Duration implementations for C++ libraries, including roscpp.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rostime
+Homepage: http://ros.org/wiki/rostime
+Depends: boost, cpp-common, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core
+Source: rostime_0.6.13-1.bb

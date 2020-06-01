@@ -1,0 +1,12 @@
+Package: python-rosdep
+Version: 0.16.1-r0
+Description: python-rosdep version 0.16.1-r0
+ rosdep package manager abstraction tool for ROS
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: python-rosdep
+Depends: ca-certificates, python-catkin-pkg, python-core, python-netclient, python-pyyaml, python-rosdistro, python-rospkg
+Source: python-rosdep_0.16.1.bb

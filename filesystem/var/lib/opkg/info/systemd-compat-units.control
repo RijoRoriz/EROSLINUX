@@ -1,0 +1,13 @@
+Package: systemd-compat-units
+Version: 1.0-r29
+Description: Enhances systemd compatilibity with existing SysVinit scripts
+ Enhances systemd compatilibity with existing SysVinit scripts.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: systemd-compat-units
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: systemd
+Source: systemd-compat-units.bb

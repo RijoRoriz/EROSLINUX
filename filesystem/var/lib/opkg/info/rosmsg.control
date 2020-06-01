@@ -1,0 +1,18 @@
+Package: rosmsg
+Version: 1.14.3-r0
+Description: rosmsg version 1.14.3-r0
+ rosmsg contains two command-line tools: <tt>rosmsg</tt> and
+ <tt>rossrv</tt>. <tt>rosmsg</tt> is a command-line tool for
+ displaying information about <a href="http://www.ros.org/wiki/msg">ROS
+ Message     types</a>. <tt>rossrv</tt> is a command-line tool for
+ displaying     information about <a
+ href="http://www.ros.org/wiki/srv">ROS     Service types</a>.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosmsg
+Homepage: http://ros.org/wiki/rosmsg
+Depends: catkin, genmsg, genpy, python-core, python-rospkg, rosbag, roslib
+Source: rosmsg_1.14.3.bb

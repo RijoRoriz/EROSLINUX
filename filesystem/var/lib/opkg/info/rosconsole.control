@@ -1,0 +1,13 @@
+Package: rosconsole
+Version: 1.13.11-1-r0
+Description: rosconsole version 1.13.11-1-r0
+ ROS console output library.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosconsole
+Homepage: http://www.ros.org/wiki/rosconsole
+Depends: cpp-common, libapr-1-0, libboost-regex1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), liblog4cxx10 (>= git), libstdc++6 (>= 8.2.0), python-core, rosbuild, rostime (>= 0.6.13-1)
+Source: rosconsole_1.13.11-1.bb

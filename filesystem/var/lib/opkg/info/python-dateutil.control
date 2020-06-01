@@ -1,0 +1,14 @@
+Package: python-dateutil
+Version: 2.7.3-r0
+Description: Extensions to the standard Python datetime module
+ The dateutil module provides powerful extensions to the datetime module
+ available in the Python standard library.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD-3-Clause & Apache-2.0
+Architecture: aarch64
+OE: python-dateutil
+Homepage: https://dateutil.readthedocs.org
+Depends: python-datetime, python-numbers, python-six, python-stringold
+Source: python-dateutil_2.7.3.bb

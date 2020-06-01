@@ -1,0 +1,7 @@
+/etc/dbus-1/system.d/connman.conf
+/lib/systemd/system/connman.service
+/usr/lib/connman/
+/usr/lib/connman/plugins/
+/usr/sbin/connmand
+/etc/tmpfiles.d/connman_resolvconf.conf
+/etc/resolv-conf.connman

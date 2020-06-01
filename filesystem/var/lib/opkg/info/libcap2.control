@@ -1,0 +1,14 @@
+Package: libcap2
+Version: 2.25-r0
+Description: Library for getting/setting POSIX.1e capabilities
+ Library for getting/setting POSIX.1e capabilities.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD | GPLv2
+Architecture: aarch64
+OE: libcap
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libc6 (>= 2.28)
+Provides: libcap
+Source: libcap_2.25.bb

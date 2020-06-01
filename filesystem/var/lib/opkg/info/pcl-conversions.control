@@ -1,0 +1,13 @@
+Package: pcl-conversions
+Version: 1.7.0-2-r0
+Description: pcl-conversions version 1.7.0-2-r0
+ Provides conversions from PCL data types and ROS message types
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: pcl-conversions
+Homepage: http://wiki.ros.org/pcl_conversions
+Depends: python-core
+Source: pcl-conversions_1.7.0-2.bb

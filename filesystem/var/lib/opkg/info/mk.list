@@ -1,0 +1,12 @@
+/opt/ros/melodic/share/mk/eclipse.awk
+/opt/ros/melodic/share/mk/
+/opt/ros/melodic/share/mk/make_pydev_project.py
+/opt/ros/melodic/share/mk/buildtest.mk
+/opt/ros/melodic/share/mk/bzr_checkout.mk
+/opt/ros/melodic/share/mk/git_checkout.mk
+/opt/ros/melodic/share/mk/cmake_stack.mk
+/opt/ros/melodic/share/mk/hg_checkout.mk
+/opt/ros/melodic/share/mk/package.xml
+/opt/ros/melodic/share/mk/download_unpack_build.mk
+/opt/ros/melodic/share/mk/svn_checkout.mk
+/opt/ros/melodic/share/mk/cmake.mk

@@ -1,0 +1,17 @@
+Package: cpp-common
+Version: 0.6.13-1-r0
+Description: cpp-common version 0.6.13-1-r0
+ cpp_common contains C++ code for doing things that are not necessarily
+ ROS     related, but are useful for multiple packages. This includes
+ things like     the ROS_DEPRECATED and ROS_FORCE_INLINE macros, as well
+ as code for getting     backtraces.      This package is a component of
+ <a href="http://www.ros.org/wiki/roscpp">roscpp</a>.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: cpp-common
+Homepage: http://www.ros.org/wiki/cpp_common
+Depends: boost, libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core
+Source: cpp-common_0.6.13-1.bb

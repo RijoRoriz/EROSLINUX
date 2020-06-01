@@ -1,0 +1,12 @@
+Package: os-release
+Version: 1.0-r0
+Description: Operating system identification
+ The /usr/lib/os-release file contains operating system identification
+ data.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: all
+OE: os-release
+Source: os-release.bb

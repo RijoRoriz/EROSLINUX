@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: genpy
+Version: 0.6.9
+Summary: Python ROS message and service generators.
+Home-page: http://wiki.ros.org/genpy
+Author: Dirk Thomas
+Author-email: dthomas@osrfoundation.org
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: genmsg

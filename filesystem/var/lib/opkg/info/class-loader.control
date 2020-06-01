@@ -1,0 +1,19 @@
+Package: class-loader
+Version: 0.4.1-r0
+Description: class-loader version 0.4.1-r0
+ The class_loader package is a ROS-independent package for loading plugins
+ during runtime and the foundation of the higher level ROS
+ &quot;pluginlib&quot; library. class_loader utilizes the host operating
+ system's runtime loader to open runtime libraries (e.g. .so/.dll files),
+ introspect the library for exported plugin classes, and allows users to
+ instantiate objects of said exported classes without the explicit
+ declaration (i.e. header file) for those classes.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: class-loader
+Homepage: http://ros.org/wiki/class_loader
+Depends: boost, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0), poco, python-core
+Source: class-loader_0.4.1.bb

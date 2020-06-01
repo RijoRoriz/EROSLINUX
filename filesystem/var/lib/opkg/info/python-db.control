@@ -1,0 +1,13 @@
+Package: python-db
+Version: 2.7.16-r1
+Description: Python file-based database support
+ The Python Programming Language.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: PSFv2
+Architecture: aarch64
+OE: python
+Homepage: http://www.python.org
+Depends: libc6 (>= 2.28), libgdbm-compat4 (>= 1.18), libpython2.7-1.0 (>= 2.7.16), python-bsddb, python-core, python-gdbm
+Source: python_2.7.16.bb

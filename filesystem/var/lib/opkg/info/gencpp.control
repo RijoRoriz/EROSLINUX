@@ -1,0 +1,13 @@
+Package: gencpp
+Version: 0.6.2-r0
+Description: gencpp version 0.6.2-r0
+ C++ ROS message and service generators.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: gencpp
+Homepage: https://github.com/ros/gencpp/issues
+Depends: genmsg, python-core
+Source: gencpp_0.6.2.bb

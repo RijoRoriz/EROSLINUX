@@ -1,0 +1,13 @@
+Package: python-paramiko
+Version: 1.16.0-r0
+Description: python-paramiko version 1.16.0-r0
+ SSH2 protocol library
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2.1
+Architecture: aarch64
+OE: python-paramiko
+Homepage: https://github.com/paramiko/paramiko/
+Depends: python-core, python-ecdsa, python-pycrypto
+Source: python-paramiko_1.16.0.bb

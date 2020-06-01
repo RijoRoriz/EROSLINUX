@@ -1,0 +1,14 @@
+Package: libattr1
+Version: 2.4.47-r0
+Description: Utilities for manipulating filesystem extended attributes
+ Utilities for manipulating filesystem extended attributes.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2.1+
+Architecture: aarch64
+OE: attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: libc6 (>= 2.28)
+Provides: libattr
+Source: attr_2.4.47.bb

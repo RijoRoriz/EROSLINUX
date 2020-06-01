@@ -1,0 +1,13 @@
+Package: libgpg-error
+Version: 1.32-r0
+Description: Small library that defines common error values for all GnuPG components
+ Small library that defines common error values for all GnuPG components.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2+ & LGPLv2.1+
+Architecture: aarch64
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Depends: libc6 (>= 2.28)
+Source: libgpg-error_1.32.bb

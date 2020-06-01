@@ -1,0 +1,12 @@
+Package: systemd-serialgetty
+Version: 1.0-r5
+Description: Serial terminal support for systemd
+ Serial terminal support for systemd.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2+
+Architecture: zcu104_zynqmp
+OE: systemd-serialgetty
+Homepage: https://www.freedesktop.org/wiki/Software/systemd/
+Source: systemd-serialgetty.bb

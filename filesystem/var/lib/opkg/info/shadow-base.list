@@ -1,0 +1,6 @@
+/bin/su.shadow
+/usr/bin/newgrp.shadow
+/usr/bin/sg
+/usr/bin/groups.shadow
+/bin/login.shadow
+/etc/login.defs

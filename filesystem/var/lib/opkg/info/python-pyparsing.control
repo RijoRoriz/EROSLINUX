@@ -1,0 +1,13 @@
+Package: python-pyparsing
+Version: 2.2.0-r0
+Description: Python parsing module
+ Python parsing module.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: python-pyparsing
+Homepage: http://pyparsing.wikispaces.com/
+Depends: python-core, python-datetime, python-debugger, python-json, python-netclient, python-pprint, python-stringold, python-threading
+Source: python-pyparsing_2.2.0.bb

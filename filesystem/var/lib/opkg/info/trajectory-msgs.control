@@ -1,0 +1,15 @@
+Package: trajectory-msgs
+Version: 1.12.7-r0
+Description: trajectory-msgs version 1.12.7-r0
+ This package defines messages for defining robot trajectories. These
+ messages are     also the building blocks of most of the     <a
+ href="http://wiki.ros.org/control_msgs">control_msgs</a> actions.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: trajectory-msgs
+Homepage: http://wiki.ros.org/trajectory_msgs
+Depends: geometry-msgs, message-runtime, python-core, rosbag-migration-rule, std-msgs
+Source: trajectory-msgs_1.12.7.bb

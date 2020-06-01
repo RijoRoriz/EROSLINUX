@@ -1,0 +1,15 @@
+Package: ros-comm
+Version: 1.14.3-r0
+Description: ros-comm version 1.14.3-r0
+ ROS communications-related packages, including core client libraries
+ (roscpp, rospy) and graph introspection tools (rostopic, rosnode,
+ rosservice, rosparam).
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: ros-comm
+Homepage: http://www.ros.org/wiki/ros_comm
+Depends: message-filters, python-core, ros, rosbag, rosconsole, roscpp, rosgraph, rosgraph-msgs, roslaunch, rosmaster, rosmsg, rosnode, rosout, rosparam, rospy, rosservice, rostest, rostopic, roswtf, std-srvs, topic-tools, xmlrpcpp
+Source: ros-comm_1.14.3.bb

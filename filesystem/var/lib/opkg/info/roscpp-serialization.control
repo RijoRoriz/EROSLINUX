@@ -1,0 +1,17 @@
+Package: roscpp-serialization
+Version: 0.6.13-1-r0
+Description: roscpp-serialization version 0.6.13-1-r0
+ roscpp_serialization contains the code for serialization as described in
+ <a href="http://www.ros.org/wiki/roscpp/Overview/MessagesSerializationAnd
+ AdaptingTypes">MessagesSerializationAndAdaptingTypes</a>.      This
+ package is a component of <a
+ href="http://www.ros.org/wiki/roscpp">roscpp</a>.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: roscpp-serialization
+Homepage: http://ros.org/wiki/roscpp_serialization
+Depends: cpp-common, libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, roscpp-traits, rostime
+Source: roscpp-serialization_0.6.13-1.bb

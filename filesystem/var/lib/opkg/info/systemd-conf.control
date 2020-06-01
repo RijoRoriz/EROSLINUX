@@ -1,0 +1,14 @@
+Package: systemd-conf
+Version: 1.0-r0
+Description: Systemd system configuration
+ Systemd may require slightly different configuration for different
+ machines.  For example, qemu machines require a longer
+ DefaultTimeoutStartSec setting.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2 & LGPLv2.1
+Architecture: zcu104_zynqmp
+OE: systemd-conf
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Source: systemd-conf.bb

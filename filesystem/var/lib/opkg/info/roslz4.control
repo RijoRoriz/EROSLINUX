@@ -1,0 +1,15 @@
+Package: roslz4
+Version: 1.14.3-r0
+Description: roslz4 version 1.14.3-r0
+ A Python and C++ implementation of the LZ4 streaming format.  Large data
+ streams are split into blocks which are compressed using the very fast
+ LZ4     compression algorithm.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: roslz4
+Homepage: https://wiki.ros.org
+Depends: libc6 (>= 2.28), libpython2.7-1.0 (>= 2.7.16), lz4 (>= 1.8.2), python-core
+Source: roslz4_1.14.3.bb

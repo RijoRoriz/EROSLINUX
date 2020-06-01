@@ -1,0 +1,3 @@
+/sbin/losetup
+/sbin/losetup.util-linux 80
+/bin/busybox.nosuid 50

@@ -1,0 +1,15 @@
+Package: libtinyxml2-6
+Version: 6.2.0-r0
+Description: TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs
+ TinyXML-2 is a simple, small, efficient, C++ XML parser that can be
+ easily integrating into other programs.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Zlib
+Architecture: aarch64
+OE: libtinyxml2
+Homepage: http://www.grinninglizard.com/tinyxml2/
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: libtinyxml2
+Source: libtinyxml2_6.2.0.bb

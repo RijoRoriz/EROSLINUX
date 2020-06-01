@@ -1,0 +1,14 @@
+Package: rosunit
+Version: 1.14.7-1-r0
+Description: rosunit version 1.14.7-1-r0
+ Unit-testing package for ROS. This is a lower-level library for rostest
+ and handles unit tests, whereas rostest handles integration tests.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosunit
+Homepage: http://wiki.ros.org/rosunit
+Depends: python-core, python-rospkg, roslib
+Source: rosunit_1.14.7-1.bb

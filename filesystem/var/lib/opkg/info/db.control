@@ -1,0 +1,14 @@
+Package: db
+Version: 1:5.3.28-r1
+Description: Berkeley Database v5
+ Berkeley Database v5.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Sleepycat
+Architecture: aarch64
+OE: db
+Homepage: http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html
+Depends: libc6 (>= 2.28)
+Conflicts: db3
+Source: db_5.3.28.bb

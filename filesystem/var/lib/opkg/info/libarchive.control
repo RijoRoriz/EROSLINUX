@@ -1,0 +1,14 @@
+Package: libarchive
+Version: 3.3.3-r0
+Description: Support for reading various archive formats
+ C library and command-line tools for reading and writing tar, cpio, zip,
+ ISO, and other archive formats
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: libarchive
+Homepage: http://www.libarchive.org/
+Depends: libacl1 (>= 2.2.52), libbz2-1 (>= 1.0.6), libc6 (>= 2.28), liblzma5 (>= 5.2.4), liblzo2-2 (>= 2.10), libxml2 (>= 2.9.8), libz1 (>= 1.2.11)
+Source: libarchive_3.3.3.bb

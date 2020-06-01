@@ -1,0 +1,14 @@
+Package: libncursesw5
+Version: 6.1+20180630-r0
+Description: ncurses ncursesw library
+ ncurses ncursesw library
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.28), libtinfo5 (>= 6.1+20180630)
+Provides: ncurses-libncursesw
+Source: ncurses_6.1+20180630.bb

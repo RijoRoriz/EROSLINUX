@@ -1,0 +1,14 @@
+Package: libgdk-pixbuf-2.0-0
+Version: 2.36.11-r0
+Description: Image loading library for GTK+
+ Image loading library for GTK+.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2
+Architecture: aarch64
+OE: gdk-pixbuf
+Homepage: http://www.gtk.org/
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0), libpng16-16 (>= 1.6.36), libz1 (>= 1.2.11), shared-mime-info
+Provides: gdk-pixbuf
+Source: gdk-pixbuf_2.36.11.bb

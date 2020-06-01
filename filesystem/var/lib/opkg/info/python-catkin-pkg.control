@@ -1,0 +1,12 @@
+Package: python-catkin-pkg
+Version: 0.4.15-r0
+Description: python-catkin-pkg version 0.4.15-r0
+ catkin package library
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: python-catkin-pkg
+Depends: python-core, python-dateutil, python-docutils, python-pyparsing, python-unixadmin
+Source: python-catkin-pkg_0.4.15.bb

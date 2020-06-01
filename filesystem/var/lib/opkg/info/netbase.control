@@ -1,0 +1,13 @@
+Package: netbase
+Version: 1:5.4-r0
+Description: Basic TCP/IP networking support
+ This package provides the necessary infrastructure for basic TCP/IP based
+ networking
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2
+Architecture: aarch64
+OE: netbase
+Homepage: http://packages.debian.org/netbase
+Source: netbase_5.4.bb

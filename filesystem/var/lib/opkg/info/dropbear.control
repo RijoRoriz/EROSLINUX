@@ -1,0 +1,14 @@
+Package: dropbear
+Version: 2018.76-r0
+Description: A lightweight SSH and SCP implementation
+ A lightweight SSH and SCP implementation.
+Section: console/network
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT & BSD-3-Clause & BSD-2-Clause & PD
+Architecture: aarch64
+OE: dropbear
+Homepage: http://matt.ucc.asn.au/dropbear/dropbear.html
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libz1 (>= 1.2.11), update-alternatives-opkg
+Provides: ssh, sshd
+Source: dropbear_2018.76.bb

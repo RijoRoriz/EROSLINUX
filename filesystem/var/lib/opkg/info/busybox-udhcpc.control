@@ -1,0 +1,19 @@
+Package: busybox-udhcpc
+Version: 1.29.3-r0
+Description: Tiny versions of many common UNIX utilities in a single small executable
+ BusyBox combines tiny versions of many common UNIX utilities into a
+ single small executable. It provides minimalist replacements for most of
+ the utilities you usually find in GNU fileutils, shellutils, etc. The
+ utilities in BusyBox generally have fewer options than their full-
+ featured GNU cousins; however, the options that are included provide the
+ expected functionality and behave very much like their GNU counterparts.
+ BusyBox provides a fairly complete POSIX environment for any small or
+ embedded system.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2 & bzip2
+Architecture: aarch64
+OE: busybox
+Homepage: http://www.busybox.net
+Source: busybox_1.29.3.bb

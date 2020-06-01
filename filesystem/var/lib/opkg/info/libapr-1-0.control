@@ -1,0 +1,14 @@
+Package: libapr-1-0
+Version: 1.6.3-r0
+Description: Apache Portable Runtime (APR) library
+ Apache Portable Runtime (APR) library.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Apache-2.0
+Architecture: aarch64
+OE: apr
+Homepage: http://apr.apache.org/
+Depends: libc6 (>= 2.28), libcrypt1 (>= 4.1.1), libuuid1 (>= 2.32.1)
+Provides: apr
+Source: apr_1.6.3.bb

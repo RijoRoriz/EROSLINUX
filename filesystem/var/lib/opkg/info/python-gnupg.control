@@ -1,0 +1,13 @@
+Package: python-gnupg
+Version: 0.4.1-r0
+Description: A wrapper for the Gnu Privacy Guard (GPG or GnuPG)
+ A wrapper for the Gnu Privacy Guard (GPG or GnuPG).
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: python-gnupg
+Homepage: https://bitbucket.org/vinay.sajip/python-gnupg/src/default/
+Depends: python-core
+Source: python-gnupg_0.4.1.bb

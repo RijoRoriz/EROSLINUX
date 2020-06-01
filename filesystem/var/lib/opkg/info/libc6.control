@@ -1,0 +1,14 @@
+Package: libc6
+Version: 2.28-r0
+Description: GLIBC (GNU C Library)
+ The GNU C Library is used as the system C library in most systems with
+ the Linux kernel.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2 & LGPLv2.1
+Architecture: aarch64
+OE: glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Provides: eglibc, glibc, rtld(GNU_HASH)
+Source: glibc_2.28.bb

@@ -1,0 +1,19 @@
+Package: rosparam
+Version: 1.14.3-r0
+Description: rosparam version 1.14.3-r0
+ rosparam contains the rosparam command-line tool for getting and
+ setting ROS Parameters on the <a
+ href="http://www.ros.org/wiki/Parameter%20Server">Parameter
+ Server</a> using YAML-encoded files. It also contains an     experimental
+ library for using YAML with the Parameter     Server. This library is
+ intended for internal use only.      rosparam can be invoked within a <a
+ href="http://www.ros.org/wiki/roslaunch">roslaunch</a> file.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosparam
+Homepage: http://ros.org/wiki/rosparam
+Depends: python-core, python-pyyaml, rosgraph
+Source: rosparam_1.14.3.bb

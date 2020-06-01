@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /etc/resolv.conf resolv-conf /etc/resolv-conf.connman 100
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
+
+	systemctl $OPTS enable connman.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl --no-block restart connman.service
+	fi
+fi

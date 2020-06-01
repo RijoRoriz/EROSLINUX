@@ -1,0 +1,14 @@
+Package: systemd-container
+Version: 1:239-r0
+Description: Tools for containers and VMs
+ Systemd tools to spawn and manage containers and virtual machines.
+Section: base/shell
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2 & LGPLv2.1
+Architecture: aarch64
+OE: systemd
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: libacl1 (>= 2.2.52), libc6 (>= 2.28), systemd (>= 239)
+Recommends: systemd-journal-gatewayd, systemd-journal-remote, systemd-journal-upload
+Source: systemd_239.bb

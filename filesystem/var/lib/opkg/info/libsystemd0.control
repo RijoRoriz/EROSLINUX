@@ -1,0 +1,14 @@
+Package: libsystemd0
+Version: 1:239-r0
+Description: Systemd systemd library
+ Systemd systemd library
+Section: base/shell
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2 & LGPLv2.1
+Architecture: aarch64
+OE: systemd
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: libc6 (>= 2.28), libcap2 (>= 2.25), liblzma5 (>= 5.2.4), libmount1 (>= 2.32.1)
+Provides: libsystemd
+Source: systemd_239.bb

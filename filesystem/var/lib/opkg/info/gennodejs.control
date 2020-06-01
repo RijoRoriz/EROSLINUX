@@ -1,0 +1,13 @@
+Package: gennodejs
+Version: 2.0.1-r0
+Description: gennodejs version 2.0.1-r0
+ Javascript ROS message and service generators.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Apache-2.0
+Architecture: aarch64
+OE: gennodejs
+Homepage: https://wiki.ros.org
+Depends: genmsg, python-core
+Source: gennodejs_2.0.1.bb

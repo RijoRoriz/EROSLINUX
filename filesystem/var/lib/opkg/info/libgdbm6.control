@@ -1,0 +1,14 @@
+Package: libgdbm6
+Version: 1.18-r0
+Description: Key/value database library with extensible hashing
+ Key/value database library with extensible hashing.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv3
+Architecture: aarch64
+OE: gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libc6 (>= 2.28)
+Provides: gdbm
+Source: gdbm_1.18.bb

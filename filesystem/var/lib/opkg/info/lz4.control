@@ -1,0 +1,15 @@
+Package: lz4
+Version: 1:1.8.2-r0
+Description: Extremely Fast Compression algorithm
+ LZ4 is a very fast lossless compression algorithm, providing compression
+ speed at 400 MB/s per core, scalable with multi-cores CPU. It also
+ features an extremely fast decoder, with speed in multiple GB/s per core,
+ typically reaching RAM speed limits on multi-core systems.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD | BSD-2-Clause | GPL-2.0
+Architecture: aarch64
+OE: lz4
+Depends: libc6 (>= 2.28)
+Source: lz4_1.8.2.bb

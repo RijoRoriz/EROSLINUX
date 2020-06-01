@@ -1,0 +1,14 @@
+Package: stereo-msgs
+Version: 1.12.7-r0
+Description: stereo-msgs version 1.12.7-r0
+ stereo_msgs contains messages specific to stereo processing, such as
+ disparity images.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: stereo-msgs
+Homepage: http://wiki.ros.org/stereo_msgs
+Depends: message-runtime, python-core, sensor-msgs, std-msgs
+Source: stereo-msgs_1.12.7.bb

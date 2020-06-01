@@ -1,0 +1,13 @@
+Package: kernel-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Description: Linux kernel
+ Xilinx Kernel
+Section: kernel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2
+Architecture: zcu104_zynqmp
+OE: linux-xlnx
+Depends: kernel-image-4.14.0-xilinx-v2018.3
+Provides: kernel-4.14.0-xilinx-v2018.3, kernel-base
+Source: linux-xlnx_2018.3.bb

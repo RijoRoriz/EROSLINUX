@@ -1,0 +1,7 @@
+/opt/ros/melodic/bin/rosclean
+/opt/ros/melodic/lib/python2.7/site-packages/rosclean/__init__.py
+/opt/ros/melodic/share/rosclean/
+/opt/ros/melodic/lib/python2.7/site-packages/rosclean/
+/opt/ros/melodic/share/rosclean/package.xml
+/opt/ros/melodic/lib/python2.7/site-packages/rosclean-1.14.7-py2.7.egg-info
+/opt/ros/melodic/lib/python2.7/site-packages/rosclean/__init__.pyc

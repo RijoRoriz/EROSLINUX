@@ -1,0 +1,13 @@
+Package: genpy
+Version: 0.6.9-1-r0
+Description: genpy version 0.6.9-1-r0
+ Python ROS message and service generators.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: genpy
+Homepage: http://wiki.ros.org/genpy
+Depends: genmsg, python-core, python-pyyaml
+Source: genpy_0.6.9-1.bb

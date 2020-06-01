@@ -1,0 +1,17 @@
+Package: rosnode
+Version: 1.14.3-r0
+Description: rosnode version 1.14.3-r0
+ rosnode is a command-line tool for displaying debug information     about
+ ROS <a href="http://www.ros.org/wiki/Nodes">Nodes</a>,     including
+ publications, subscriptions and connections. It also     contains an
+ experimental library for retrieving node     information. This library is
+ intended for internal use only.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosnode
+Homepage: http://ros.org/wiki/rosnode
+Depends: python-core, rosgraph, rostopic
+Source: rosnode_1.14.3.bb

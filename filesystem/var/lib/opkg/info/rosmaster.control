@@ -1,0 +1,13 @@
+Package: rosmaster
+Version: 1.14.3-r0
+Description: rosmaster version 1.14.3-r0
+ ROS <a href="http://ros.org/wiki/Master">Master</a> implementation.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosmaster
+Homepage: http://ros.org/wiki/rosmaster
+Depends: python-core, python-defusedxml, rosgraph
+Source: rosmaster_1.14.3.bb

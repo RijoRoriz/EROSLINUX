@@ -1,0 +1,13 @@
+Package: python-xmlrpc
+Version: 2.7.16-r1
+Description: Python XML-RPC support
+ The Python Programming Language.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: PSFv2
+Architecture: aarch64
+OE: python
+Homepage: http://www.python.org
+Depends: python-codecs, python-compression, python-contextlib, python-core, python-crypt, python-datetime, python-fcntl, python-io, python-lang, python-math, python-mime, python-netclient, python-netserver, python-pkgutil, python-pydoc, python-textutils, python-threading, python-xml, python-zlib
+Source: python_2.7.16.bb

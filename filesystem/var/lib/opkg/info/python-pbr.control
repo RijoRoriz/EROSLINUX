@@ -1,0 +1,14 @@
+Package: python-pbr
+Version: 4.2.0-r0
+Description: Python Build Reasonableness
+ PBR is a library that injects some useful and sensible default behaviors
+ into your setuptools run
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Apache-2.0
+Architecture: aarch64
+OE: python-pbr
+Homepage: https://pypi.python.org/pypi/pbr
+Depends: python-core, python-pip
+Source: python-pbr_4.2.0.bb

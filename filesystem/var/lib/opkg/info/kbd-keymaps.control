@@ -1,0 +1,12 @@
+Package: kbd-keymaps
+Version: 2.0.4-r0
+Description: Keytable files and keyboard utilities
+ Keytable files and keyboard utilities.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2+
+Architecture: aarch64
+OE: kbd
+Homepage: http://www.kbd-project.org/
+Source: kbd_2.0.4.bb

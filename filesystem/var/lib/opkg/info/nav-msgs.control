@@ -1,0 +1,14 @@
+Package: nav-msgs
+Version: 1.12.7-r0
+Description: nav-msgs version 1.12.7-r0
+ nav_msgs defines the common messages used to interact with the     <a
+ href="http://wiki.ros.org/navigation">navigation</a> stack.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: nav-msgs
+Homepage: http://wiki.ros.org/nav_msgs
+Depends: actionlib-msgs, geometry-msgs, message-runtime, python-core, std-msgs
+Source: nav-msgs_1.12.7.bb

@@ -1,0 +1,13 @@
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Description: Minimal boot requirements
+ The minimal set of packages required to boot the system
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: zcu104_zynqmp
+OE: packagegroup-core-boot
+Depends: base-files, base-passwd, busybox, netbase, systemd, udev, update-alternatives-opkg
+Recommends: busybox-syslog
+Source: packagegroup-core-boot.bb

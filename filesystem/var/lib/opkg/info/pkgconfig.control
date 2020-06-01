@@ -1,0 +1,16 @@
+Package: pkgconfig
+Version: 0.29.2+git0+edf8e6f0ea-r0
+Description: Helper tool used when compiling
+ pkg-config is a helper tool used when compiling applications and
+ libraries. It helps determined the correct compiler/link options.  It is
+ also language-agnostic.
+Section: console/utils
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2+
+Architecture: aarch64
+OE: pkgconfig
+Homepage: http://pkg-config.freedesktop.org/wiki/
+Depends: libc6 (>= 2.28), libglib-2.0-0 (>= 2.58.0)
+Provides: pkgconfig(pkg-config)
+Source: pkgconfig_git.bb

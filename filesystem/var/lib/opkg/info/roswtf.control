@@ -1,0 +1,14 @@
+Package: roswtf
+Version: 1.14.3-r0
+Description: roswtf version 1.14.3-r0
+ roswtf is a tool for diagnosing issues with a running ROS system. Think
+ of it as a FAQ implemented in code.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: roswtf
+Homepage: http://ros.org/wiki/roswtf
+Depends: python-core, python-paramiko, python-rospkg, rosbuild, rosgraph, roslaunch, roslib, rosnode, rosservice
+Source: roswtf_1.14.3.bb

@@ -1,0 +1,14 @@
+Package: libacl1
+Version: 2.2.52-r0
+Description: Utilities for managing POSIX Access Control Lists
+ Utilities for managing POSIX Access Control Lists.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2.1+
+Architecture: aarch64
+OE: acl
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.28)
+Provides: libacl
+Source: acl_2.2.52.bb

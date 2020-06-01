@@ -1,0 +1,21 @@
+Package: roslaunch
+Version: 1.14.3-r0
+Description: roslaunch version 1.14.3-r0
+ roslaunch is a tool for easily launching multiple ROS <a
+ href="http://ros.org/wiki/Nodes">nodes</a> locally and remotely     via
+ SSH, as well as setting parameters on the <a
+ href="http://ros.org/wiki/Parameter Server">Parameter     Server</a>. It
+ includes options to automatically respawn processes     that have already
+ died. roslaunch takes in one or more XML     configuration files (with
+ the <tt>.launch</tt> extension) that     specify the parameters to set
+ and nodes to launch, as well as the     machines that they should be run
+ on.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: roslaunch
+Homepage: http://ros.org/wiki/roslaunch
+Depends: python-core, python-paramiko, python-pyyaml, python-rospkg, rosclean, rosgraph-msgs, roslib, rosmaster, rosout, rosparam, rosunit
+Source: roslaunch_1.14.3.bb

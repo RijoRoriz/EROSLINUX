@@ -1,0 +1,14 @@
+Package: libboost-filesystem1.68.0
+Version: 1.68.0-r0
+Description: Free peer-reviewed portable C++ source libraries
+ Free peer-reviewed portable C++ source libraries.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSL-1.0 & MIT & Python-2.0
+Architecture: aarch64
+OE: boost
+Homepage: http://www.boost.org/
+Depends: libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: boost-filesystem
+Source: boost_1.68.0.bb

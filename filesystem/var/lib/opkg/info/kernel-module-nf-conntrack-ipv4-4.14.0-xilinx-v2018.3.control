@@ -1,0 +1,13 @@
+Package: kernel-module-nf-conntrack-ipv4-4.14.0-xilinx-v2018.3
+Version: 4.14-xilinx-v2018.3+git0+eeab73d120-r0
+Description: nf-conntrack-ipv4 kernel module
+ nf-conntrack-ipv4 kernel module
+Section: kernel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2
+Architecture: zcu104_zynqmp
+OE: linux-xlnx
+Depends: kernel-4.14.0-xilinx-v2018.3, kernel-module-nf-conntrack-4.14.0-xilinx-v2018.3, kernel-module-nf-defrag-ipv4-4.14.0-xilinx-v2018.3
+Provides: kernel-module-nf-conntrack-ipv4
+Source: linux-xlnx_2018.3.bb

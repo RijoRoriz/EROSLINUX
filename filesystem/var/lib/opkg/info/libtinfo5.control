@@ -1,0 +1,16 @@
+Package: libtinfo5
+Version: 6.1+20180630-r0
+Description: ncurses tinfo library
+ ncurses tinfo library
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.28)
+Suggests: ncurses-terminfo
+Recommends: ncurses-terminfo-base
+Provides: ncurses-libtinfo
+Source: ncurses_6.1+20180630.bb

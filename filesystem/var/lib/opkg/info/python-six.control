@@ -1,0 +1,13 @@
+Package: python-six
+Version: 1.11.0-r0
+Description: Python 2 and 3 compatibility library
+ Python 2 and 3 compatibility library.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: python-six
+Homepage: http://pypi.python.org/pypi/six/
+Depends: python-core, python-io
+Source: python-six_1.11.0.bb

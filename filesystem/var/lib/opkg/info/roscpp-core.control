@@ -1,0 +1,13 @@
+Package: roscpp-core
+Version: 0.6.13-1-r0
+Description: roscpp-core version 0.6.13-1-r0
+ Underlying data libraries for roscpp messages.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: roscpp-core
+Homepage: http://www.ros.org/wiki/roscpp_core
+Depends: cpp-common, python-core, roscpp-serialization, roscpp-traits, rostime
+Source: roscpp-core_0.6.13-1.bb

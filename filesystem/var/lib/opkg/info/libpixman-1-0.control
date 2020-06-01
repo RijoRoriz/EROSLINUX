@@ -1,0 +1,17 @@
+Package: libpixman-1-0
+Version: 1:0.34.0-r0
+Description: Pixman: Pixel Manipulation library
+ Pixman provides a library for manipulating pixel regions -- a set of Y-X
+ banded rectangles, image compositing using the Porter/Duff model and
+ implicit mask generation for geometric primitives including trapezoids,
+ triangles, and rectangles.
+Section: x11/libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT & MIT-style & PD
+Architecture: aarch64
+OE: pixman
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.28)
+Provides: pixman
+Source: pixman_0.34.0.bb

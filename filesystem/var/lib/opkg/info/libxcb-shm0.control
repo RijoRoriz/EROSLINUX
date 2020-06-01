@@ -1,0 +1,14 @@
+Package: libxcb-shm0
+Version: 1.13-r0
+Description: XCB library module for shm
+ XCB library module for shm
+Section: x11/libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: libxcb
+Homepage: http://xcb.freedesktop.org
+Depends: libc6 (>= 2.28), libxau6 (>= 1.0.8), libxcb1 (>= 1.13), libxdmcp6 (>= 1.1.2)
+Provides: libxcb-shm
+Source: libxcb_1.13.bb

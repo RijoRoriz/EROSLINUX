@@ -1,0 +1,13 @@
+Package: graphviz
+Version: 2.40.1-r0
+Description: Graph Visualization Tools
+ Graph Visualization Tools.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: EPL-1.0
+Architecture: aarch64
+OE: graphviz
+Homepage: http://www.graphviz.org
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.12), libexpat1 (>= 2.2.6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libgdk-pixbuf-2.0-0 (>= 2.36.11), libglib-2.0-0 (>= 2.58.0), libltdl7 (>= 2.4.6), librsvg-2-2 (>= 2.40.20), libx11-6 (>= 1.6.6), libxrender1 (>= 0.9.10), libz1 (>= 1.2.11), pango (>= 1.42.4)
+Source: graphviz_2.40.1.bb

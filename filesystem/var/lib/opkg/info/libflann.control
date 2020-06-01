@@ -1,0 +1,13 @@
+Package: libflann
+Version: 1.9.1-r0
+Description: libflann version 1.9.1-r0
+ Fast Library for Approximate Nearest Neighbors
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: libflann
+Homepage: http://www.cs.ubc.ca/~mariusm/index.php/FLANN/FLANN
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libgomp1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Source: libflann_1.9.1.bb

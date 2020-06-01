@@ -1,0 +1,14 @@
+Package: libassuan0
+Version: 2.5.1-r0
+Description: IPC library used by GnuPG and GPGME
+ IPC library used by GnuPG and GPGME.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2.1+
+Architecture: aarch64
+OE: libassuan
+Homepage: http://www.gnupg.org/related_software/libassuan/
+Depends: libc6 (>= 2.28), libgpg-error (>= 1.32)
+Provides: libassuan
+Source: libassuan_2.5.1.bb

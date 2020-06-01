@@ -1,0 +1,14 @@
+Package: libpng16-16
+Version: 1.6.36-r0
+Description: PNG image format decoding library
+ PNG image format decoding library.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Libpng
+Architecture: aarch64
+OE: libpng
+Homepage: http://www.libpng.org/
+Depends: libc6 (>= 2.28), libz1 (>= 1.2.11)
+Provides: libpng
+Source: libpng_1.6.36.bb

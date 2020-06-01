@@ -1,0 +1,14 @@
+Package: liblzma5
+Version: 5.2.4-r0
+Description: Utilities for managing LZMA compressed files
+ Utilities for managing LZMA compressed files.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: PD
+Architecture: aarch64
+OE: xz
+Homepage: http://tukaani.org/xz/
+Depends: libc6 (>= 2.28)
+Provides: liblzma
+Source: xz_5.2.4.bb

@@ -1,0 +1,13 @@
+Package: python-pyyaml
+Version: 3.13-r0
+Description: Python support for YAML
+ Python support for YAML.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: python-pyyaml
+Homepage: http://www.pyyaml.org
+Depends: libc6 (>= 2.28), libyaml-0-2 (>= 0.2.1), python-core, python-datetime
+Source: python-pyyaml_3.13.bb

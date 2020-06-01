@@ -1,0 +1,17 @@
+Package: util-linux
+Version: 2.32.1-r0
+Description: A suite of basic system administration utilities
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2+ & LGPLv2.1+ & BSD
+Architecture: aarch64
+OE: util-linux
+Homepage: http://userweb.kernel.org/~kzak/util-linux/
+Depends: libblkid1 (>= 2.32.1), libc6 (>= 2.28), libmount1 (>= 2.32.1), libsmartcols1 (>= 2.32.1), libtinfo5 (>= 6.1+20180630), libuuid1 (>= 2.32.1), update-alternatives-opkg, util-linux-losetup, util-linux-lsblk, util-linux-sulogin, util-linux-swaponoff, util-linux-umount
+Recommends: util-linux-cfdisk, util-linux-fdisk, util-linux-ionice, util-linux-mkfs, util-linux-mount, util-linux-mountpoint, util-linux-prlimit, util-linux-readprofile, util-linux-sfdisk, util-linux-switch-root
+Source: util-linux_2.32.1.bb

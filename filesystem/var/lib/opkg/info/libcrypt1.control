@@ -1,0 +1,14 @@
+Package: libcrypt1
+Version: 4.1.1-r0
+Description: Extended cryptographic library (from glibc)
+ Forked code from glibc libary to extract only crypto part.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2.1
+Architecture: aarch64
+OE: libxcrypt
+Homepage: https://github.com/besser82/libxcrypt
+Depends: libc6 (>= 2.28)
+Provides: libxcrypt
+Source: libxcrypt_4.1.1.bb

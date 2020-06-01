@@ -1,0 +1,21 @@
+Package: systemd-vconsole-setup
+Version: 1:239-r0
+Description: A System and service manager
+ systemd is a system and service manager for Linux, compatible with SysV
+ and LSB init scripts. systemd provides aggressive parallelization
+ capabilities, uses socket and D-Bus activation for starting services,
+ offers on-demand starting of daemons, keeps track of processes using
+ Linux cgroups, supports snapshotting and restoring of the system state,
+ maintains mount and automount points and implements an elaborate
+ transactional dependency-based service control logic. It can work as a
+ drop-in replacement for sysvinit.
+Section: base/shell
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2 & LGPLv2.1
+Architecture: aarch64
+OE: systemd
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: libc6 (>= 2.28), systemd (>= 239)
+Recommends: kbd, kbd-consolefonts, kbd-keymaps
+Source: systemd_239.bb

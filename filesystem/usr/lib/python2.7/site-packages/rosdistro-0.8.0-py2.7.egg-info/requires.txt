@@ -1,0 +1,4 @@
+PyYAML
+setuptools
+catkin_pkg
+rospkg

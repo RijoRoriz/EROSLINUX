@@ -1,0 +1,14 @@
+Package: rosbag-migration-rule
+Version: 1.0.0-r0
+Description: rosbag-migration-rule version 1.0.0-r0
+ This empty package allows to export rosbag migration rule files without
+ depending on rosbag.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosbag-migration-rule
+Homepage: http://ros.org/wiki/rosbag_migration_rule
+Depends: python-core
+Source: rosbag-migration-rule_1.0.0.bb

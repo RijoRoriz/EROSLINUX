@@ -1,0 +1,13 @@
+Package: rosout
+Version: 1.14.3-r0
+Description: rosout version 1.14.3-r0
+ System-wide logging mechanism for messages sent to the /rosout topic.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosout
+Homepage: http://ros.org/wiki/rosout
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rosgraph-msgs, rostime (>= 0.6.13-1)
+Source: rosout_1.14.3.bb

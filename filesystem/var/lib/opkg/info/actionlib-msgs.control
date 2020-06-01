@@ -1,0 +1,16 @@
+Package: actionlib-msgs
+Version: 1.12.7-r0
+Description: actionlib-msgs version 1.12.7-r0
+ actionlib_msgs defines the common messages to interact with an
+ action server and an action client.  For full documentation of      the
+ actionlib API see      the <a
+ href="http://wiki.ros.org/actionlib">actionlib</a>      package.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: actionlib-msgs
+Homepage: http://wiki.ros.org/actionlib_msgs
+Depends: message-generation, message-runtime, python-core, std-msgs
+Source: actionlib-msgs_1.12.7.bb

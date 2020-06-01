@@ -1,0 +1,18 @@
+Package: pango
+Version: 1.42.4-r0
+Description: Framework for layout and rendering of internationalized text
+ Pango is a library for laying out and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed, though most of the work on Pango so far has been done in the
+ context of the GTK+ widget toolkit. Pango forms the core of text and font
+ handling for GTK+-2.x.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2.0+
+Architecture: aarch64
+OE: pango
+Homepage: http://www.pango.org/
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.12), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libfribidi0 (>= 1.0.5), libglib-2.0-0 (>= 2.58.0), libharfbuzz0 (>= 1.8.8), libx11-6 (>= 1.6.6), libxft2 (>= 2.3.2), libxrender1 (>= 0.9.10)
+Provides: pango-module-arabic-lang, pango-module-basic-fc, pango-module-indic-lang, pango-modules
+Source: pango_1.42.4.bb

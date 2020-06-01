@@ -1,0 +1,13 @@
+Package: catkin
+Version: 0.7.19-1-r0
+Description: catkin version 0.7.19-1-r0
+ Low-level build system macros and infrastructure for ROS.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: catkin
+Homepage: http://wiki.ros.org/catkin
+Depends: python-catkin-pkg, python-core, python-empy
+Source: catkin_0.7.19-1.bb

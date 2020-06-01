@@ -1,0 +1,14 @@
+Package: ros-environment
+Version: 1.2.2-1-r0
+Description: ros-environment version 1.2.2-1-r0
+ The package provides the environment variables `ROS_VERSION`,
+ `ROS_DISTRO`, `ROS_PACKAGE_PATH`, and `ROS_ETC_DIR`.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Apache-2.0
+Architecture: aarch64
+OE: ros-environment
+Homepage: https://github.com/ros/ros_environment
+Depends: python-core
+Source: ros-environment_1.2.2-1.bb

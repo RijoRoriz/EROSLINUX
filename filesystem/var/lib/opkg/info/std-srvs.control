@@ -1,0 +1,13 @@
+Package: std-srvs
+Version: 1.11.2-r0
+Description: std-srvs version 1.11.2-r0
+ Common service definitions.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: std-srvs
+Homepage: http://ros.org/wiki/std_srvs
+Depends: message-runtime, python-core
+Source: std-srvs_1.11.2.bb

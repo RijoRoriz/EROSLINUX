@@ -1,0 +1,16 @@
+Package: xmlrpcpp
+Version: 1.14.3-r0
+Description: xmlrpcpp version 1.14.3-r0
+ XmlRpc++ is a C++ implementation of the XML-RPC protocol. This version is
+ heavily modified from the package available on SourceForge in order to
+ support roscpp's threading model. As such, we are maintaining our     own
+ fork.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPL-2.1
+Architecture: aarch64
+OE: xmlrpcpp
+Homepage: http://xmlrpcpp.sourceforge.net
+Depends: cpp-common, libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rostime (>= 0.6.13-1)
+Source: xmlrpcpp_1.14.3.bb

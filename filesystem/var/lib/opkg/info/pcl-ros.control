@@ -1,0 +1,15 @@
+Package: pcl-ros
+Version: 1.7.0-2-r0
+Description: pcl-ros version 1.7.0-2-r0
+ PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred
+ bridge for 3D applications involving n-D Point Clouds and 3D geometry
+ processing in ROS.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: pcl-ros
+Homepage: http://ros.org/wiki/perception_pcl
+Depends: class-loader (>= 0.4.1), cpp-common (>= 0.6.13-1), dynamic-reconfigure (>= 1.6.0), geometry-msgs, libboost-filesystem1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libeigen, libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-filters (>= 1.14.3), nodelet (>= 1.9.16), nodelet-topic-tools, pcl (>= 1.8.1), pcl-conversions, pcl-msgs, pluginlib, python-core, rosbag, rosbag-storage (>= 1.14.3), rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), sensor-msgs, std-msgs, tf (>= 1.12.0), tf2 (>= 0.6.5), tf2-eigen, tf2-ros (>= 0.6.5), xmlrpcpp (>= 1.14.3)
+Source: pcl-ros_1.7.0-2.bb

@@ -1,0 +1,17 @@
+Package: libglib-2.0-0
+Version: 1:2.58.0-r0
+Description: A general-purpose utility library
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2.1+ & BSD & PD
+Architecture: aarch64
+OE: glib-2.0
+Homepage: https://developer.gnome.org/glib/
+Depends: libc6 (>= 2.28), libffi6 (>= 3.2.1), libmount1 (>= 2.32.1), libpcre1 (>= 8.42), libz1 (>= 1.2.11)
+Recommends: shared-mime-info
+Provides: glib-2.0
+Source: glib-2.0_2.58.0.bb

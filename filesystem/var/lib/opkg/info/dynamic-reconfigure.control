@@ -1,0 +1,15 @@
+Package: dynamic-reconfigure
+Version: 1.6.0-r0
+Description: dynamic-reconfigure version 1.6.0-r0
+ This unary stack contains the dynamic_reconfigure package which provides
+ a means to change     node parameters at any time without having to
+ restart the node.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: dynamic-reconfigure
+Homepage: http://ros.org/wiki/dynamic_reconfigure
+Depends: boost, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-runtime, python-core, roscpp, roslib, rospy, rosservice, std-msgs
+Source: dynamic-reconfigure_1.6.0.bb

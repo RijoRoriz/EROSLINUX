@@ -1,0 +1,14 @@
+Package: velodyne-laserscan
+Version: 1.5.2-r0
+Description: velodyne-laserscan version 1.5.2-r0
+ Extract a single ring of a Velodyne PointCloud2 and publish it as a
+ LaserScan message
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: velodyne-laserscan
+Homepage: http://ros.org/wiki/velodyne_laserscan
+Depends: class-loader (>= 0.4.1), dynamic-reconfigure (>= 1.6.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), nodelet (>= 1.9.16), python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), sensor-msgs
+Source: velodyne-laserscan_1.5.2.bb

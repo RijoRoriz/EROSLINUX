@@ -1,0 +1,17 @@
+Package: topic-tools
+Version: 1.14.3-r0
+Description: topic-tools version 1.14.3-r0
+ Tools for directing, throttling, selecting, and otherwise messing with
+ ROS topics at a meta level. None of the programs in this package actually
+ know about the topics whose streams they are altering; instead, these
+ tools deal with messages as generic binary blobs. This means they can be
+ applied to any ROS topic.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: topic-tools
+Homepage: http://ros.org/wiki/topic_tools
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-runtime, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), std-msgs, xmlrpcpp (>= 1.14.3)
+Source: topic-tools_1.14.3.bb

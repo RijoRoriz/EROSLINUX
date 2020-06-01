@@ -1,0 +1,5 @@
+kernel/net/netfilter/nf_conntrack.ko: kernel/lib/libcrc32c.ko
+kernel/net/netfilter/nf_nat.ko: kernel/net/netfilter/nf_conntrack.ko kernel/lib/libcrc32c.ko
+kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko: kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko kernel/net/netfilter/nf_conntrack.ko kernel/lib/libcrc32c.ko
+kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko:
+kernel/lib/libcrc32c.ko:

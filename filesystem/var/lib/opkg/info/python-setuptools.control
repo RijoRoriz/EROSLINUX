@@ -1,0 +1,16 @@
+Package: python-setuptools
+Version: 40.0.0-r0
+Description: Download, build, install, upgrade, and uninstall Python packages
+ Download, build, install, upgrade, and uninstall Python packages.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: python-setuptools
+Homepage: https://pypi.python.org/pypi/setuptools
+Depends: python-compile, python-compression, python-core, python-ctypes, python-distutils, python-email, python-html, python-netserver, python-numbers, python-pkgutil, python-plistlib, python-shell, python-stringold, python-threading, python-unittest, python-xml
+Provides: python-distribute
+Replaces: python-distribute
+Conflicts: python-distribute
+Source: python-setuptools_40.0.0.bb

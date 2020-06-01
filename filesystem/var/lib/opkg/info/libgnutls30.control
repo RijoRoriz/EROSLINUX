@@ -1,0 +1,14 @@
+Package: libgnutls30
+Version: 3.6.4-r0
+Description: GNU Transport Layer Security Library
+ GNU Transport Layer Security Library.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: LGPLv2.1+
+Architecture: aarch64
+OE: gnutls
+Homepage: http://www.gnu.org/software/gnutls/
+Depends: libc6 (>= 2.28), libgmp10 (>= 6.1.2), libidn2-0 (>= 2.0.5), libunistring2 (>= 0.9.10), nettle (>= 3.4)
+Provides: gnutls
+Source: gnutls_3.6.4.bb

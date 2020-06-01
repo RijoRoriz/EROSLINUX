@@ -1,0 +1,14 @@
+Package: libpocoxml60
+Version: 1.9.0-r0
+Description: Poco xml component
+ Poco xml component
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSL-1.0
+Architecture: aarch64
+OE: poco
+Homepage: http://pocoproject.org/
+Depends: libc6 (>= 2.28), libexpat1 (>= 2.2.6), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-xml
+Source: poco_1.9.0.bb

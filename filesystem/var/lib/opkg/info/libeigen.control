@@ -1,0 +1,13 @@
+Package: libeigen
+Version: 3.3.5-r0
+Description: libeigen version 3.3.5-r0
+ Eigen is a C++ template library for linear algebra: matrices, vectors,
+ numerical solvers, and related algorithms.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MPL-2.0
+Architecture: aarch64
+OE: libeigen
+Homepage: http://eigen.tuxfamily.org/
+Source: libeigen_3.3.5.bb

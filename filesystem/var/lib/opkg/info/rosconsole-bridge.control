@@ -1,0 +1,15 @@
+Package: rosconsole-bridge
+Version: 0.5.3-r0
+Description: rosconsole-bridge version 0.5.3-r0
+ rosconsole_bridge is a package used in conjunction with console_bridge
+ and rosconsole for connecting console_bridge-based logging to rosconsole-
+ based logging.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosconsole-bridge
+Homepage: http://www.ros.org/wiki/rosconsole_bridge
+Depends: cpp-common, libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rosconsole (>= 1.13.11-1)
+Source: rosconsole-bridge_0.5.3.bb

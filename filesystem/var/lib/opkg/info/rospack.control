@@ -1,0 +1,13 @@
+Package: rospack
+Version: 2.5.4-1-r0
+Description: rospack version 2.5.4-1-r0
+ ROS Package Tool
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rospack
+Homepage: http://wiki.ros.org/rospack
+Depends: boost, libboost-filesystem1.68.0 (>= 1.68.0), libboost-program-options1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpython2.7-1.0 (>= 2.7.16), libstdc++6 (>= 8.2.0), libtinyxml2-6 (>= 6.2.0), pkgconfig, python, python-catkin-pkg, python-core, python-rosdep, ros-environment
+Source: rospack_2.5.4-1.bb

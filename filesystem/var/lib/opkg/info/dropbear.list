@@ -1,0 +1,10 @@
+/usr/bin/dbclient
+/usr/sbin/dropbearmulti
+/etc/dropbear/
+/usr/sbin/dropbearkey
+/lib/systemd/system/dropbearkey.service
+/usr/sbin/dropbearconvert
+/lib/systemd/system/dropbear.socket
+/etc/default/dropbear
+/usr/sbin/dropbear
+/lib/systemd/system/dropbear@.service

@@ -1,0 +1,16 @@
+Package: pluginlib
+Version: 1.12.1-r0
+Description: pluginlib version 1.12.1-r0
+ The pluginlib package provides tools for writing and dynamically loading
+ plugins using the ROS build infrastructure.     To work, these tools
+ require plugin providers to register their plugins in the package.xml of
+ their package.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: pluginlib
+Homepage: http://www.ros.org/wiki/pluginlib
+Depends: boost, class-loader, libtinyxml2-6, python-core, rosconsole, roslib
+Source: pluginlib_1.12.1.bb

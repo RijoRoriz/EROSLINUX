@@ -1,0 +1,14 @@
+Package: rostest
+Version: 1.14.3-r0
+Description: rostest version 1.14.3-r0
+ Integration test suite based on roslaunch that is compatible with xUnit
+ frameworks.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rostest
+Homepage: http://ros.org/wiki/rostest
+Depends: boost, python-core, rosgraph, roslaunch, rosmaster, rospy, rosunit
+Source: rostest_1.14.3.bb

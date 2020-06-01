@@ -1,0 +1,14 @@
+Package: rosbag-storage
+Version: 1.14.3-r0
+Description: rosbag-storage version 1.14.3-r0
+ This is a set of tools for recording from and playing back ROS
+ message without relying on the ROS client library.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosbag-storage
+Homepage: https://wiki.ros.org
+Depends: boost, bzip2, class-loader (>= 0.4.1), cpp-common (>= 0.6.13-1), gpgme (>= 1.11.1), libboost-filesystem1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libbz2-1 (>= 1.0.6), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libcrypto1.1 (>= 1.1.1b), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), libtinyxml2-6 (>= 6.2.0), openssl, pluginlib, python-core, rosconsole (>= 1.13.11-1), roscpp-serialization, roscpp-traits, roslib (>= 1.14.7-1), roslz4 (>= 1.14.3), rostime (>= 0.6.13-1)
+Source: rosbag-storage_1.14.3.bb

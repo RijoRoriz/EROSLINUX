@@ -1,0 +1,14 @@
+Package: libpocodatasqlite60
+Version: 1.9.0-r0
+Description: Poco datasqlite component
+ Poco datasqlite component
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSL-1.0
+Architecture: aarch64
+OE: poco
+Homepage: http://pocoproject.org/
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocodata60 (>= 1.9.0), libpocofoundation60 (>= 1.9.0), libsqlite3-0 (>= 3.23.1), libstdc++6 (>= 8.2.0)
+Provides: poco-datasqlite
+Source: poco_1.9.0.bb

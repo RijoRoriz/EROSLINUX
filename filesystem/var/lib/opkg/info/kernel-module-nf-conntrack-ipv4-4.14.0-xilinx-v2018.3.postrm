@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+if [ -z "$D" ]; then
+	depmod -a 4.14.0-xilinx-v2018.3
+else
+	depmodwrapper -a -b $D 4.14.0-xilinx-v2018.3
+fi
+

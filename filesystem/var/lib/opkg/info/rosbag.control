@@ -1,0 +1,15 @@
+Package: rosbag
+Version: 1.14.3-r0
+Description: rosbag version 1.14.3-r0
+ This is a set of tools for recording from and playing back to ROS
+ topics.  It is intended to be high performance and avoids
+ deserialization and reserialization of the messages.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosbag
+Homepage: http://ros.org/wiki/rosbag
+Depends: boost, cpp-common (>= 0.6.13-1), genmsg, genpy, libboost-filesystem1.68.0 (>= 1.68.0), libboost-program-options1.68.0 (>= 1.68.0), libboost-regex1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, python-gnupg, python-pycrypto, python-rospkg, rosbag-storage (>= 1.14.3), rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), roslib, rospy, rostime (>= 0.6.13-1), std-srvs, topic-tools (>= 1.14.3), xmlrpcpp (>= 1.14.3)
+Source: rosbag_1.14.3.bb

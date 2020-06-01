@@ -1,0 +1,15 @@
+Package: opkg-arch-config
+Version: 1.0-r1
+Description: Architecture-dependent configuration for opkg
+ Architecture-dependent configuration for opkg.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: zcu104_zynqmp
+OE: opkg-arch-config
+Homepage: http://code.google.com/p/opkg/
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Source: opkg-arch-config_1.0.bb

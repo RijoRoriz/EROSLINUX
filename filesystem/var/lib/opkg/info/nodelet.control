@@ -1,0 +1,17 @@
+Package: nodelet
+Version: 1.9.16-r0
+Description: nodelet version 1.9.16-r0
+ The nodelet package is designed to provide a way to run multiple
+ algorithms in the same process with zero copy transport between
+ algorithms.      This package provides both the nodelet base class needed
+ for     implementing a nodelet, as well as the NodeletLoader class used
+ for instantiating nodelets.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: nodelet
+Homepage: http://ros.org/wiki/nodelet
+Depends: bondcpp (>= 1.8.3), boost, class-loader (>= 0.4.1), libboost-filesystem1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), libtinyxml2-6 (>= 6.2.0), libuuid1 (>= 2.32.1), message-runtime, pluginlib, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), roslib (>= 1.14.7-1), rospy, rostime (>= 0.6.13-1), std-msgs, util-linux, xmlrpcpp (>= 1.14.3)
+Source: nodelet_1.9.16.bb

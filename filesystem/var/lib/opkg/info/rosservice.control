@@ -1,0 +1,17 @@
+Package: rosservice
+Version: 1.14.3-r0
+Description: rosservice version 1.14.3-r0
+ rosservice contains the rosservice command-line tool for listing     and
+ querying ROS <a href="http://www.ros.org/wiki/Services">Services</a>. It
+ also     contains a Python library for retrieving information about
+ Services and dynamically invoking them. The Python library is
+ experimental and is for internal-use only.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosservice
+Homepage: http://ros.org/wiki/rosservice
+Depends: genpy, python-core, rosgraph, roslib, rosmsg, rospy
+Source: rosservice_1.14.3.bb

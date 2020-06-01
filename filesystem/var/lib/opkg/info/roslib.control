@@ -1,0 +1,15 @@
+Package: roslib
+Version: 1.14.7-1-r0
+Description: roslib version 1.14.7-1-r0
+ Base dependencies and support libraries for ROS.     roslib contains many
+ of the common data structures and tools that are shared across ROS client
+ library implementations.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: roslib
+Homepage: http://wiki.ros.org/roslib
+Depends: catkin, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, python-rospkg, ros-environment, rospack (>= 2.5.4-1)
+Source: roslib_1.14.7-1.bb

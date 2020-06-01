@@ -1,0 +1,14 @@
+Package: libsmartcols1
+Version: 2.32.1-r0
+Description: util-linux libsmartcols
+ util-linux libsmartcols
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2+ & LGPLv2.1+ & BSD
+Architecture: aarch64
+OE: util-linux
+Homepage: http://userweb.kernel.org/~kzak/util-linux/
+Depends: libc6 (>= 2.28)
+Provides: util-linux-libsmartcols
+Source: util-linux_2.32.1.bb

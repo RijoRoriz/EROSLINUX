@@ -1,0 +1,12 @@
+Package: mobile-broadband-provider-info
+Version: 1:20170310-r0
+Description: Mobile Broadband Service Provider Database
+ Mobile Broadband Service Provider Database.
+Section: network
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: PD
+Architecture: aarch64
+OE: mobile-broadband-provider-info
+Homepage: http://live.gnome.org/NetworkManager/MobileBroadband/ServiceProviders
+Source: mobile-broadband-provider-info_git.bb

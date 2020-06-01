@@ -1,0 +1,14 @@
+Package: message-filters
+Version: 1.14.3-r0
+Description: message-filters version 1.14.3-r0
+ A set of message filters which take in messages and may output those
+ messages at a later time, based on the conditions that filter needs met.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: message-filters
+Homepage: http://ros.org/wiki/message_filters
+Depends: libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rosconsole, roscpp
+Source: message-filters_1.14.3.bb

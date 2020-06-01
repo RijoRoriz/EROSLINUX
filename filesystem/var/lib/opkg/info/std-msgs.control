@@ -1,0 +1,16 @@
+Package: std-msgs
+Version: 0.5.12-r0
+Description: std-msgs version 0.5.12-r0
+ Standard ROS Messages including common message types representing
+ primitive data types and other basic message constructs, such as
+ multiarrays.     For common, generic robot-specific message types, please
+ see <a href="http://www.ros.org/wiki/common_msgs">common_msgs</a>.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: std-msgs
+Homepage: http://www.ros.org/wiki/std_msgs
+Depends: message-runtime, python-core
+Source: std-msgs_0.5.12.bb

@@ -1,0 +1,14 @@
+Package: libgcc1
+Version: 8.2.0-r0
+Description: GNU cc and gcc C compilers
+ GNU cc and gcc C compilers.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPL-3.0-with-GCC-exception
+Architecture: aarch64
+OE: libgcc
+Homepage: http://www.gnu.org/software/gcc/
+Depends: libc6 (>= 2.28)
+Provides: libgcc
+Source: libgcc_8.2.bb

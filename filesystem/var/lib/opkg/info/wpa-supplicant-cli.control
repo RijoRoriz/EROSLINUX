@@ -1,0 +1,13 @@
+Package: wpa-supplicant-cli
+Version: 2.6-r0
+Description: Client for Wi-Fi Protected Access (WPA)
+ Client for Wi-Fi Protected Access (WPA).
+Section: network
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: wpa-supplicant
+Homepage: http://w1.fi/wpa_supplicant/
+Depends: libc6 (>= 2.28)
+Source: wpa-supplicant_2.6.bb

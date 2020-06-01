@@ -1,0 +1,19 @@
+Package: libcairo2
+Version: 1.14.12-r0
+Description: The Cairo 2D vector graphics library
+ Cairo is a multi-platform library providing anti-aliased vector-based
+ rendering for multiple target backends. Paths consist of line segments
+ and cubic splines and can be rendered at any width with various join and
+ cap styles. All colors may be specified with optional translucence
+ (opacity/alpha) and combined using the extended Porter/Duff compositing
+ algebra as found in the X Render Extension.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MPL-1 & LGPLv2.1
+Architecture: aarch64
+OE: cairo
+Homepage: http://cairographics.org
+Depends: libc6 (>= 2.28), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libpixman-1-0 (>= 0.34.0), libpng16-16 (>= 1.6.36), libx11-6 (>= 1.6.6), libxcb-render0 (>= 1.13), libxcb-shm0 (>= 1.13), libxcb1 (>= 1.13), libxext6 (>= 1.3.3), libxrender1 (>= 0.9.10), libz1 (>= 1.2.11)
+Provides: cairo
+Source: cairo_1.14.12.bb

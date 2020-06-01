@@ -1,0 +1,18 @@
+Package: tf2
+Version: 0.6.5-r0
+Description: tf2 version 0.6.5-r0
+ tf2 is the second generation of the transform library, which lets     the
+ user keep track of multiple coordinate frames over time. tf2
+ maintains the relationship between coordinate frames in a tree
+ structure buffered in time, and lets the user transform points,
+ vectors, etc between any two coordinate frames at any desired     point
+ in time.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: tf2
+Homepage: http://www.ros.org/wiki/tf2
+Depends: geometry-msgs, libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), python-core, rostime (>= 0.6.13-1), tf2-msgs
+Source: tf2_0.6.5.bb

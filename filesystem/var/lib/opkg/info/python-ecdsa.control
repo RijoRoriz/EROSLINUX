@@ -1,0 +1,13 @@
+Package: python-ecdsa
+Version: 0.13-r0
+Description: python-ecdsa version 0.13-r0
+ ECDSA cryptographic signature library
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: python-ecdsa
+Homepage: https://github.com/warner/python-ecdsa
+Depends: python-core, python-pbr
+Source: python-ecdsa_0.13.bb

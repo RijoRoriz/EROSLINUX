@@ -1,0 +1,27 @@
+Package: tf
+Version: 1.12.0-r0
+Description: tf version 1.12.0-r0
+ tf is a package that lets the user keep track of multiple coordinate
+ frames over time. tf maintains the relationship between coordinate frames
+ in a tree structure buffered in time, and lets the user transform points,
+ vectors, etc between any two coordinate frames at any desired point in
+ time.      <p><b>Migration</b>: Since ROS Hydro, tf has been
+ &quot;deprecated&quot; in favor of <a
+ href="http://wiki.ros.org/tf2">tf2</a>. tf2 is an iteration on tf
+ providing generally the same feature set more efficiently. As well as
+ adding a few new features.<br/>     As tf2 is a major change the tf API
+ has been maintained in its current form. Since tf2 has a superset of the
+ tf features with a subset of the dependencies the tf implementation has
+ been removed and replaced with calls to tf2 under the hood. This will
+ mean that all users will be compatible with tf2. It is recommended for
+ new work to use tf2 directly as it has a cleaner interface. However tf
+ will continue to be supported for through at least J Turtle.     </p>
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: tf
+Homepage: http://www.ros.org/wiki/tf
+Depends: geometry-msgs, graphviz, libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-filters, message-runtime, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), roswtf, sensor-msgs, std-msgs, tf2 (>= 0.6.5), tf2-ros (>= 0.6.5), xmlrpcpp (>= 1.14.3)
+Source: tf_1.12.0.bb

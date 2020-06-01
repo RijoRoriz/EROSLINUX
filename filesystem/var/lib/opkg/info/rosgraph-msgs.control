@@ -1,0 +1,14 @@
+Package: rosgraph-msgs
+Version: 1.11.2-r0
+Description: rosgraph-msgs version 1.11.2-r0
+ Messages relating to the ROS Computation Graph. These are generally
+ considered to be low-level messages that end users do not interact with.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosgraph-msgs
+Homepage: http://ros.org/wiki/rosgraph_msgs
+Depends: message-runtime, python-core, std-msgs
+Source: rosgraph-msgs_1.11.2.bb

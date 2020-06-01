@@ -1,0 +1,13 @@
+Package: tf2-eigen
+Version: 0.6.5-r0
+Description: tf2-eigen version 0.6.5-r0
+ tf2_eigen
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: tf2-eigen
+Homepage: https://wiki.ros.org
+Depends: geometry-msgs, python-core, tf2
+Source: tf2-eigen_0.6.5.bb

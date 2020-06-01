@@ -1,0 +1,15 @@
+Package: libconsole-bridge0.4
+Version: 0.4.2-r0
+Description: console-bridge version 0.4.2-r0
+ console_bridge is a ROS-independent, pure CMake package that provides
+ logging calls that mirror those found in rosconsole, but for applications
+ that are not necessarily using ROS.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: console-bridge
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0)
+Provides: console-bridge
+Source: console-bridge_0.4.2.bb

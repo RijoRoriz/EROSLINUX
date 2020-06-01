@@ -1,0 +1,16 @@
+Package: libpcap1
+Version: 1.8.1-r0
+Description: Interface for user-level network packet capture
+ Libpcap provides a portable framework for low-level network monitoring.
+ Libpcap can provide network statistics collection, security monitoring
+ and network debugging.
+Section: libs/network
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: libpcap
+Homepage: http://www.tcpdump.org/
+Depends: libc6 (>= 2.28)
+Provides: libpcap
+Source: libpcap_1.8.1.bb

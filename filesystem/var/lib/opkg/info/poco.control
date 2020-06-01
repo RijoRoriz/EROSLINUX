@@ -1,0 +1,15 @@
+Package: poco
+Version: 1.9.0-r0
+Description: Modern, powerful open source cross-platform C++ class libraries
+ Modern, powerful open source C++ class libraries and frameworks for
+ building network- and internet-based applications that run on desktop,
+ server, mobile and embedded systems.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSL-1.0
+Architecture: aarch64
+OE: poco
+Homepage: http://pocoproject.org/
+Recommends: libpococrypto60, libpocodata60, libpocodatasqlite60, libpocoencodings60, libpocofoundation60, libpocojson60, libpocomongodb60, libpoconet60, libpoconetssl60, libpocopdf60, libpocoredis60, libpocoutil60, libpocoxml60, libpocozip60
+Source: poco_1.9.0.bb

@@ -1,0 +1,16 @@
+Package: roslang
+Version: 1.14.7-1-r0
+Description: roslang version 1.14.7-1-r0
+ roslang is a common package that all <a
+ href="http://www.ros.org/wiki/Client%20Libraries">ROS client
+ libraries</a> depend on.     This is mainly used to find client libraries
+ (via 'rospack depends-on1 roslang').
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: roslang
+Homepage: http://ros.org/wiki/roslang
+Depends: catkin, genmsg, python-core
+Source: roslang_1.14.7-1.bb

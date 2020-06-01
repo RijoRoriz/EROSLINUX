@@ -1,0 +1,17 @@
+Package: mk
+Version: 1.14.7-1-r0
+Description: mk version 1.14.7-1-r0
+ A collection of .mk include files for building ROS architectural
+ elements.     Most package authors should use cmake .mk, which calls
+ CMake for the build of the package.     The other files in this package
+ are intended for use in exotic situations that mostly arise when
+ importing 3rdparty code.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: mk
+Homepage: http://www.ros.org/wiki/ROS
+Depends: python-core, rosbuild, rospack
+Source: mk_1.14.7-1.bb

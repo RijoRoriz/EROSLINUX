@@ -1,0 +1,12 @@
+Package: packagegroup-core-ssh-dropbear
+Version: 1.0-r1
+Description: Dropbear SSH client/server
+ Dropbear SSH client/server.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: all
+OE: packagegroup-core-ssh-dropbear
+Depends: dropbear
+Source: packagegroup-core-ssh-dropbear.bb

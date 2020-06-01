@@ -1,0 +1,22 @@
+Package: rostopic
+Version: 1.14.3-r0
+Description: rostopic version 1.14.3-r0
+ rostopic contains the rostopic command-line tool for displaying     debug
+ information about     ROS <a
+ href="http://www.ros.org/wiki/Topics">Topics</a>, including
+ publishers, subscribers, publishing rate,     and ROS <a
+ href="http://www.ros.org/wiki/Messages">Messages</a>. It also
+ contains an experimental Python library for getting information about
+ and interacting with topics dynamically. This library is for
+ internal-use only as the code API may change, though it does provide
+ examples of how to implement dynamic subscription and publication
+ behaviors in ROS.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rostopic
+Homepage: http://ros.org/wiki/rostopic
+Depends: genpy, python-core, rosbag, rospy
+Source: rostopic_1.14.3.bb

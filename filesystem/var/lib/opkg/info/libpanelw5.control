@@ -1,0 +1,14 @@
+Package: libpanelw5
+Version: 6.1+20180630-r0
+Description: ncurses panelw library
+ ncurses panelw library
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT
+Architecture: aarch64
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.28), libncursesw5 (>= 6.1+20180630), libtinfo5 (>= 6.1+20180630)
+Provides: ncurses-libpanelw
+Source: ncurses_6.1+20180630.bb

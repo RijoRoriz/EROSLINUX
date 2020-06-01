@@ -1,0 +1,17 @@
+Package: libicui18n62
+Version: 62.1-r0
+Description: International Component for Unicode libraries
+ The International Component for Unicode (ICU) is a mature, portable set
+ of C/C++ and Java libraries for Unicode support, software
+ internationalization (I18N) and globalization (G11N), giving applications
+ the same results on all platforms.
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: ICU
+Architecture: aarch64
+OE: icu
+Homepage: http://site.icu-project.org/
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libicudata62 (>= 62.1), libicuuc62 (>= 62.1), libstdc++6 (>= 8.2.0)
+Provides: libicui18n
+Source: icu_62.1.bb

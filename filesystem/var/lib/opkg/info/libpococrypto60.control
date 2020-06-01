@@ -1,0 +1,14 @@
+Package: libpococrypto60
+Version: 1.9.0-r0
+Description: Poco crypto component
+ Poco crypto component
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSL-1.0
+Architecture: aarch64
+OE: poco
+Homepage: http://pocoproject.org/
+Depends: libc6 (>= 2.28), libcrypto1.1 (>= 1.1.1b), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libssl1.1 (>= 1.1.1b), libstdc++6 (>= 8.2.0)
+Provides: poco-crypto
+Source: poco_1.9.0.bb

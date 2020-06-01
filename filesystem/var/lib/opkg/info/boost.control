@@ -1,0 +1,13 @@
+Package: boost
+Version: 1.68.0-r0
+Description: Free peer-reviewed portable C++ source libraries
+ Free peer-reviewed portable C++ source libraries.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSL-1.0 & MIT & Python-2.0
+Architecture: aarch64
+OE: boost
+Homepage: http://www.boost.org/
+Recommends: boost-exception, boost-log, boost-math, boost-serialization, boost-test, libboost-atomic1.68.0, libboost-chrono1.68.0, libboost-container1.68.0, libboost-contract1.68.0, libboost-date-time1.68.0, libboost-filesystem1.68.0, libboost-graph1.68.0, libboost-iostreams1.68.0, libboost-locale1.68.0, libboost-program-options1.68.0, libboost-python37-1.68.0, libboost-random1.68.0, libboost-regex1.68.0, libboost-signals1.68.0, libboost-system1.68.0, libboost-thread1.68.0, libboost-timer1.68.0, libboost-wave1.68.0
+Source: boost_1.68.0.bb

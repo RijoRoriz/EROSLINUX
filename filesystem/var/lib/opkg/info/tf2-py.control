@@ -1,0 +1,13 @@
+Package: tf2-py
+Version: 0.6.5-r0
+Description: tf2-py version 0.6.5-r0
+ The tf2_py package
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: tf2-py
+Homepage: http://ros.org/wiki/tf2_py
+Depends: libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpython2.7-1.0 (>= 2.7.16), libstdc++6 (>= 8.2.0), python-core, rospy, rostime (>= 0.6.13-1), tf2 (>= 0.6.5)
+Source: tf2-py_0.6.5.bb

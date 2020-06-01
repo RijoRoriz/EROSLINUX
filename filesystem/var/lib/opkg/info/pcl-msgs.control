@@ -1,0 +1,13 @@
+Package: pcl-msgs
+Version: 0.2.0-r0
+Description: pcl-msgs version 0.2.0-r0
+ Package containing PCL (Point Cloud Library)-related ROS messages.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: pcl-msgs
+Homepage: http://wiki.ros.org/pcl_msgs
+Depends: message-runtime, python-core, sensor-msgs, std-msgs
+Source: pcl-msgs_0.2.0.bb

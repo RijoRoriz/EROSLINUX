@@ -1,0 +1,14 @@
+Package: rosbuild
+Version: 1.14.7-1-r0
+Description: rosbuild version 1.14.7-1-r0
+ rosbuild contains scripts for managing the CMake-based build system for
+ ROS.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosbuild
+Homepage: http://ros.org/wiki/rosbuild
+Depends: catkin, message-generation, message-runtime, python-core
+Source: rosbuild_1.14.7-1.bb

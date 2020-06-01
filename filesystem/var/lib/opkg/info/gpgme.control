@@ -1,0 +1,16 @@
+Package: gpgme
+Version: 1.11.1-r0
+Description: High-level GnuPG encryption/signing API
+ GnuPG Made Easy (GPGME) is a library designed to make access to GnuPG
+ easier for applications. It provides a High-Level Crypto API for
+ encryption, decryption, signing, signature verification and key
+ management
+Section: base
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2+ & LGPLv2.1+
+Architecture: aarch64
+OE: gpgme
+Homepage: http://www.gnupg.org/gpgme.html
+Depends: libassuan0 (>= 2.5.1), libc6 (>= 2.28), libgpg-error (>= 1.32)
+Source: gpgme_1.11.1.bb

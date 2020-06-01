@@ -1,0 +1,13 @@
+Package: ros
+Version: 1.14.7-1-r0
+Description: ros version 1.14.7-1-r0
+ ROS packaging system
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: ros
+Homepage: http://www.ros.org/wiki/ROS
+Depends: catkin, mk, python-core, rosbash, rosboost-cfg, rosbuild, rosclean, roscreate, roslang, roslib, rosmake, rosunit
+Source: ros_1.14.7-1.bb

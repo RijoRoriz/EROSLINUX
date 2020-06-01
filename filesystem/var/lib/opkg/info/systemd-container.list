@@ -1,0 +1,13 @@
+/usr/share/polkit-1/actions/org.freedesktop.machine1.policy
+/lib/systemd/systemd-machined
+/lib/systemd/system/dbus-org.freedesktop.machine1.service
+/lib/systemd/system/systemd-nspawn@.service
+/usr/bin/systemd-nspawn
+/lib/systemd/system/machines.target
+/bin/machinectl
+/lib/systemd/system/systemd-machined.service
+/usr/share/dbus-1/system.d/org.freedesktop.machine1.conf
+/usr/share/dbus-1/system-services/org.freedesktop.machine1.service
+/lib/systemd/system/var-lib-machines.mount
+/usr/lib/tmpfiles.d/systemd-nspawn.conf
+/lib/systemd/system/machine.slice

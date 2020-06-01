@@ -1,0 +1,14 @@
+Package: sensor-msgs
+Version: 1.12.7-r0
+Description: sensor-msgs version 1.12.7-r0
+ This package defines messages for commonly used sensors, including
+ cameras and scanning laser rangefinders.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: sensor-msgs
+Homepage: http://ros.org/wiki/sensor_msgs
+Depends: geometry-msgs, message-runtime, python-core, std-msgs
+Source: sensor-msgs_1.12.7.bb

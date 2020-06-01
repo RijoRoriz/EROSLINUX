@@ -1,0 +1,16 @@
+Package: roscpp-traits
+Version: 0.6.13-1-r0
+Description: roscpp-traits version 0.6.13-1-r0
+ roscpp_traits contains the message traits code as described in     <a hre
+ f="http://www.ros.org/wiki/roscpp/Overview/MessagesTraits">MessagesTraits
+ </a>.      This package is a component of <a
+ href="http://www.ros.org/wiki/roscpp">roscpp</a>.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: roscpp-traits
+Homepage: http://ros.org/wiki/roscpp_traits
+Depends: cpp-common, python-core, rostime
+Source: roscpp-traits_0.6.13-1.bb

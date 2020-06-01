@@ -1,0 +1,15 @@
+Package: ca-certificates
+Version: 20190110-r0
+Description: Common CA certificates
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.
+Section: misc
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPL-2.0+ & MPL-2.0
+Architecture: all
+OE: ca-certificates
+Homepage: http://packages.debian.org/sid/ca-certificates
+Depends: openssl
+Source: ca-certificates_20190110.bb

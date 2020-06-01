@@ -1,0 +1,4 @@
+/usr/share/aclocal/
+/usr/bin/pkg-config
+/usr/bin/aarch64-oe-linux-gnu-pkg-config
+/usr/share/aclocal/pkg.m4

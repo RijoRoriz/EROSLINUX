@@ -1,0 +1,14 @@
+Package: libpocojson60
+Version: 1.9.0-r0
+Description: Poco json component
+ Poco json component
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSL-1.0
+Architecture: aarch64
+OE: poco
+Homepage: http://pocoproject.org/
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0), libpocofoundation60 (>= 1.9.0), libstdc++6 (>= 8.2.0)
+Provides: poco-json
+Source: poco_1.9.0.bb

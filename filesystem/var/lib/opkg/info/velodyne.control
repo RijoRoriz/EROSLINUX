@@ -1,0 +1,13 @@
+Package: velodyne
+Version: 1.5.2-r0
+Description: velodyne version 1.5.2-r0
+ Basic ROS support for the Velodyne 3D LIDARs.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: velodyne
+Homepage: http://www.ros.org/wiki/velodyne
+Depends: python-core, velodyne-driver, velodyne-laserscan, velodyne-msgs, velodyne-pointcloud
+Source: velodyne_1.5.2.bb

@@ -1,0 +1,14 @@
+Package: ros-core
+Version: 1.4.1-r0
+Description: ros-core version 1.4.1-r0
+ A metapackage to aggregate the packages required to use publish /
+ subscribe, services, launch files, and other core ROS concepts.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: ros-core
+Homepage: https://github.com/ros/metapackages
+Depends: catkin, class-loader, common-msgs, message-runtime, pluginlib, python-core, ros, ros-comm, rosbag-migration-rule, rosconsole, rosconsole-bridge, roscpp-core, rosgraph-msgs, rospack, std-msgs, std-srvs
+Source: ros-core_1.4.1.bb

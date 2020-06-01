@@ -1,0 +1,20 @@
+Package: diagnostic-msgs
+Version: 1.12.7-r0
+Description: diagnostic-msgs version 1.12.7-r0
+ This package holds the diagnostic messages which provide the
+ standardized interface for the diagnostic and runtime monitoring
+ systems in ROS. These messages are currently used by     the <a
+ href="http://wiki.ros.org/diagnostics">diagnostics</a>     Stack, which
+ provides libraries for simple ways to set and access     the messages, as
+ well as automated ways to process the diagnostic     data.      These
+ messages are used for long term logging and will not be     changed
+ unless there is a very important reason.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: diagnostic-msgs
+Homepage: http://wiki.ros.org/diagnostic_msgs
+Depends: message-runtime, python-core, std-msgs
+Source: diagnostic-msgs_1.12.7.bb

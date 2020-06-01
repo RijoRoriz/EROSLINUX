@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/python python /usr/bin/python3 80
+	update-alternatives --install /usr/bin/python-config python_config /usr/bin/python3-config 80

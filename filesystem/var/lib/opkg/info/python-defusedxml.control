@@ -1,0 +1,12 @@
+Package: python-defusedxml
+Version: 0.5.0-r0
+Description: python-defusedxml version 0.5.0-r0
+ XML bomb protection for Python stdlib modules
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: Python-2.0
+Architecture: aarch64
+OE: python-defusedxml
+Depends: python-core
+Source: python-defusedxml_0.5.0.bb

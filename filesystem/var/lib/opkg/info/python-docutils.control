@@ -1,0 +1,13 @@
+Package: python-docutils
+Version: 0.14rc2-r0
+Description: Text processing system for documentation
+ Text processing system for documentation.
+Section: devel/python
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: PSF & BSD-2-Clause & GPLv3
+Architecture: aarch64
+OE: python-docutils
+Homepage: http://docutils.sourceforge.net
+Depends: python-core
+Source: python-docutils_0.14rc2.bb

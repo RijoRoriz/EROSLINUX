@@ -1,0 +1,14 @@
+Package: libstdc++6
+Version: 8.2.0-r0
+Description: GNU standard C++ library
+ Runtime libraries from GCC.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPL-3.0-with-GCC-exception
+Architecture: aarch64
+OE: gcc-runtime
+Homepage: http://www.gnu.org/software/gcc/
+Depends: libc6 (>= 2.28), libgcc1 (>= 8.2.0)
+Provides: libstdc++
+Source: gcc-runtime_8.2.bb

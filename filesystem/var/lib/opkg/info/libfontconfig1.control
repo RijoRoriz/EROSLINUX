@@ -1,0 +1,20 @@
+Package: libfontconfig1
+Version: 2.12.6-r0
+Description: Generic font configuration library
+ Fontconfig is a font configuration and customization library, which does
+ not depend on the X Window System. It is designed to locate fonts within
+ the system and select them according to requirements specified by
+ applications. Fontconfig is not a rasterization library, nor does it
+ impose a particular rasterization library on the application. The
+ X-specific library 'Xft' uses fontconfig along with freetype to specify
+ and rasterize fonts.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: MIT-style & MIT & PD
+Architecture: aarch64
+OE: fontconfig
+Homepage: http://www.fontconfig.org
+Depends: libc6 (>= 2.28), libexpat1 (>= 2.2.6), libfreetype6 (>= 2.9.1)
+Provides: fontconfig
+Source: fontconfig_2.12.6.bb

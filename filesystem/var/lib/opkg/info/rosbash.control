@@ -1,0 +1,13 @@
+Package: rosbash
+Version: 1.14.7-1-r0
+Description: rosbash version 1.14.7-1-r0
+ Assorted shell commands for using ros with bash.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: rosbash
+Homepage: http://www.ros.org/wiki/rosbash
+Depends: bash-real, catkin, python-core, rospack
+Source: rosbash_1.14.7-1.bb

@@ -1,0 +1,13 @@
+Package: openssl
+Version: 1.1.1b-r0
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: openssl
+Architecture: aarch64
+OE: openssl
+Homepage: http://www.openssl.org/
+Depends: openssl-conf
+Source: openssl_1.1.1b.bb

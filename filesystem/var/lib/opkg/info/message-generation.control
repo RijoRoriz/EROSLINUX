@@ -1,0 +1,14 @@
+Package: message-generation
+Version: 0.4.0-r0
+Description: message-generation version 0.4.0-r0
+ Package modeling the build-time dependencies for generating language
+ bindings of messages.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: message-generation
+Homepage: http://ros.org/wiki/message_generation
+Depends: gencpp, genmsg, gennodejs, genpy, python-core
+Source: message-generation_0.4.0.bb
