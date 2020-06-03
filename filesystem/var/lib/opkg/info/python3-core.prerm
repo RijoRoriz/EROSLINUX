@@ -1,4 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  python /usr/bin/python3
-	update-alternatives --remove  python_config /usr/bin/python3-config

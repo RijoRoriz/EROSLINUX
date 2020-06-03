@@ -1,0 +1,13 @@
+Package: linux-libc-headers-dev
+Version: 4.18-r0
+Description: Sanitized set of kernel headers for the C library's use - Development files
+ Sanitized set of kernel headers for the C library's use.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2
+Architecture: aarch64
+OE: linux-libc-headers
+Source: linux-libc-headers_4.18.bb

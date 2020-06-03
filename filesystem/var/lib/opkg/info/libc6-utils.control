@@ -1,0 +1,14 @@
+Package: libc6-utils
+Version: 2.28-r0
+Description: Miscellaneous utilities provided by glibc
+ Miscellaneous utilities including getconf, iconv, locale, gencat, ...
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2 & LGPLv2.1
+Architecture: aarch64
+OE: glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: libc6 (>= 2.28)
+Provides: eglibc-utils, glibc-utils
+Source: glibc_2.28.bb

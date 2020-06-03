@@ -1,0 +1,14 @@
+Package: libc6-extra-nss
+Version: 2.28-r0
+Description: hesiod, NIS and NIS+ nss libraries
+ glibc: nis, nisplus and hesiod search services.
+Section: libs
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: GPLv2 & LGPLv2.1
+Architecture: aarch64
+OE: glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: libc6 (>= 2.28)
+Provides: eglibc-extra-nss, glibc-extra-nss
+Source: glibc_2.28.bb

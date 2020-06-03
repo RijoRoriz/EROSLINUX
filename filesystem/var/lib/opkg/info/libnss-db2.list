@@ -1,0 +1,5 @@
+/var/db/makedbs.sh
+/lib/libnss_db-2.28.so
+/var/db/Makefile
+/var/db/
+/lib/libnss_db.so.2

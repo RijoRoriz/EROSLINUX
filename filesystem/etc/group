@@ -47,7 +47,3 @@ systemd-journal:x:997:
 messagebus:x:998:
 netdev:x:999:
 nogroup:x:65534:
-wheel:x:991:
-kvm:x:990:
-render:x:989:
-nobody:x:988:
