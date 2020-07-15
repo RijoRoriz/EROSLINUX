@@ -1,0 +1,16 @@
+/opt/ros/melodic/lib/urg_c/get_multiecho_intensity
+/opt/ros/melodic/lib/urg_c/sensor_parameter
+/opt/ros/melodic/lib/urg_c/find_port
+/opt/ros/melodic/share/urg_c/
+/opt/ros/melodic/lib/urg_c/get_distance
+/opt/ros/melodic/lib/urg_c/angle_convert_test
+/opt/ros/melodic/lib/urg_c/timeout_test
+/opt/ros/melodic/lib/libliburg_c.so
+/opt/ros/melodic/lib/urg_c/sync_time_stamp
+/opt/ros/melodic/lib/libopen_urg_sensor.so
+/opt/ros/melodic/lib/urg_c/get_multiecho
+/opt/ros/melodic/lib/urg_c/
+/opt/ros/melodic/lib/urg_c/reboot_test
+/opt/ros/melodic/lib/urg_c/get_distance_intensity
+/opt/ros/melodic/share/urg_c/package.xml
+/opt/ros/melodic/lib/urg_c/calculate_xy

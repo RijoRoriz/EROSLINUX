@@ -1,0 +1,13 @@
+Package: urg-node
+Version: 0.1.11-r0
+Description: urg-node version 0.1.11-r0
+ urg_node
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: urg-node
+Homepage: http://ros.org/wiki/urg_node
+Depends: diagnostic-updater, dynamic-reconfigure (>= 1.6.0), laser-proc (>= 0.1.5), libboost-chrono1.68.0 (>= 1.68.0), libboost-system1.68.0 (>= 1.68.0), libboost-thread1.68.0 (>= 1.68.0), libc6 (>= 2.28), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), message-generation, message-runtime, nodelet, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), sensor-msgs, std-msgs, std-srvs, tf (>= 1.12.0), urg-c (>= 1.0.405)
+Source: urg-node_0.1.11.bb
