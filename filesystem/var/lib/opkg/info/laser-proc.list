@@ -1,0 +1,10 @@
+/opt/ros/melodic/share/laser_proc/package.xml
+/opt/ros/melodic/lib/libLaserProcNodelet.so
+/opt/ros/melodic/lib/liblaser_proc_library.so
+/opt/ros/melodic/lib/liblaser_publisher.so
+/opt/ros/melodic/share/laser_proc/
+/opt/ros/melodic/lib/laser_proc/laser_proc
+/opt/ros/melodic/lib/liblaser_proc_ROS.so
+/opt/ros/melodic/lib/liblaser_transport.so
+/opt/ros/melodic/lib/laser_proc/
+/opt/ros/melodic/share/laser_proc/nodelets.xml

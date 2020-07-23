@@ -1,8 +1,15 @@
+/opt/ros/melodic/lib/
 /opt/ros/melodic/lib/python2.7/site-packages/roslz4/
+/opt/ros/melodic/share/
 /opt/ros/melodic/lib/python2.7/site-packages/roslz4/__init__.pyc
+/opt/ros/melodic/
+/opt/ros/melodic/lib/python2.7/
+/opt/ros/melodic/lib/python2.7/site-packages/
+/opt/
 /opt/ros/melodic/lib/python2.7/site-packages/roslz4-1.14.3-py2.7.egg-info
 /opt/ros/melodic/lib/python2.7/site-packages/roslz4/_roslz4.so
 /opt/ros/melodic/lib/libroslz4.so
+/opt/ros/
 /opt/ros/melodic/share/roslz4/
 /opt/ros/melodic/share/roslz4/package.xml
 /opt/ros/melodic/lib/python2.7/site-packages/roslz4/__init__.py

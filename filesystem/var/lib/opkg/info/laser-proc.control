@@ -1,0 +1,13 @@
+Package: laser-proc
+Version: 0.1.5-r0
+Description: laser-proc version 0.1.5-r0
+ laser_proc
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: laser-proc
+Homepage: http://ros.org/wiki/laser_proc
+Depends: class-loader (>= 0.4.1), libboost-system1.68.0 (>= 1.68.0), libc6 (>= 2.28), libconsole-bridge0.4 (>= 0.4.2), libgcc1 (>= 8.2.0), libstdc++6 (>= 8.2.0), nodelet (>= 1.9.16), pluginlib, python-core, rosconsole (>= 1.13.11-1), roscpp (>= 1.14.3), roscpp-serialization (>= 0.6.13-1), rostime (>= 0.6.13-1), sensor-msgs
+Source: laser-proc_0.1.5.bb

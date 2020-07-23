@@ -1,0 +1,13 @@
+Package: urg-c
+Version: 1.0.405-r0
+Description: urg-c version 1.0.405-r0
+ The urg_c package
+Section: devel
+Priority: optional
+Maintainer: Herb Kuta <herb.kuta@lge.com>
+License: BSD
+Architecture: aarch64
+OE: urg-c
+Homepage: http://sourceforge.net/projects/urgwidget/
+Depends: libc6 (>= 2.28), python-core
+Source: urg-c_1.0.405.bb
